@@ -1,0 +1,16 @@
+{
+ "bomFormat": "CycloneDX",
+ "components": [
+  {
+   "type": "library",
+   "name": "x",
+   "purl": "pkg:deb/debian/x@1.0",
+   "properties": [
+    {
+     "name": "aquasecurity:trivy:SrcEpoch",
+     "value": "one"
+    }
+   ]
+  }
+ ]
+}

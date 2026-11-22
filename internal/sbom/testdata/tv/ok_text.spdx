@@ -1,0 +1,22 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: t
+DocumentNamespace: https://x
+Creator: Tool: trivy-x
+Created: 2024-01-01T00:00:00Z
+DocumentComment: <text>line1
+line2: with colon
+</text>
+# comment
+PackageName: debian
+SPDXID: SPDXRef-OperatingSystem-1
+PackageVersion: 12.5
+PackageName: libc6
+SPDXID: SPDXRef-a
+PackageDownloadLocation: NONE
+ExternalRef: PACKAGE-MANAGER purl pkg:deb/debian/libc6@2.36-9
+PackageSourceInfo: built package from: glibc 2.36-9
+PackageComment: <text>multi
+line</text>
+Relationship: SPDXRef-OperatingSystem-1 CONTAINS SPDXRef-a

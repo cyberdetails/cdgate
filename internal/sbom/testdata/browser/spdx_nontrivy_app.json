@@ -1,0 +1,40 @@
+{
+ "spdxVersion": "SPDX-2.3",
+ "SPDXID": "SPDXRef-DOCUMENT",
+ "creationInfo": {
+  "creators": [
+   "Tool: syft-1.0"
+  ]
+ },
+ "documentDescribes": [
+  "SPDXRef-Application-app"
+ ],
+ "packages": [
+  {
+   "SPDXID": "SPDXRef-Application-app",
+   "name": "app",
+   "versionInfo": "1.0.0",
+   "sourceInfo": "package-lock.json",
+   "externalRefs": [
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:npm/app@1.0.0"
+    }
+   ]
+  },
+  {
+   "SPDXID": "SPDXRef-Application-other",
+   "name": "other",
+   "versionInfo": "2.0.0",
+   "sourceInfo": "x",
+   "externalRefs": [
+    {
+     "referenceCategory": "PACKAGE-MANAGER",
+     "referenceType": "purl",
+     "referenceLocator": "pkg:npm/other@2.0.0"
+    }
+   ]
+  }
+ ]
+}

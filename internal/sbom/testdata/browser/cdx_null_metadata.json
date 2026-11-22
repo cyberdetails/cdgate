@@ -1,0 +1,1 @@
+{"bomFormat": "CycloneDX", "metadata": null, "components": [null, {"type": "library", "name": "a", "purl": "pkg:npm/a@1.0.0"}]}

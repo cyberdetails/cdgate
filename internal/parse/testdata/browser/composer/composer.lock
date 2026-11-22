@@ -1,0 +1,22 @@
+{
+ "packages": [
+  {
+   "name": "symfony/http-kernel",
+   "version": "v5.4.0"
+  },
+  {
+   "name": "",
+   "version": "1"
+  },
+  {
+   "name": "monolog/monolog",
+   "version": "2.9.1"
+  }
+ ],
+ "packages-dev": [
+  {
+   "name": "phpunit/phpunit",
+   "version": "9.6.0"
+  }
+ ]
+}

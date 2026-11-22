@@ -1,0 +1,90 @@
+// Oracle: Trivy's ParseLDFlags (dependency/parser/golang/binary/parse.go,
+// trivy 00b7394) with the real go-shellwords v1.0.16, pflag v1.0.10 and
+// x/mod v0.42.0. Reads one ldflags string per line (Go-quoted), prints
+// quoted input, version, and the -X map as JSON ("ERR" when parsing failed).
+package main
+
+import (
+	"bufio"
+	"encoding/json"
+	"fmt"
+	"os"
+	"strconv"
+	"strings"
+
+	"github.com/mattn/go-shellwords"
+	"github.com/spf13/pflag"
+	"golang.org/x/mod/semver"
+)
+
+var defaultVersionPrefixes = map[string]bool{"main": true, "common": true, "version": true, "cmd": true}
+
+func isVersionXKey(key string) bool {
+	key = strings.ToLower(key)
+	return strings.HasSuffix(key, ".version") || strings.HasSuffix(key, ".ver")
+}
+func isValidSemVer(ver string) bool { return semver.IsValid(ver) || semver.IsValid("v"+ver) }
+func versionPrefix(s string) string {
+	if i := strings.LastIndex(s, "/"); i >= 0 {
+		s = s[i+1:]
+	}
+	s, _, _ = strings.Cut(s, ".")
+	return strings.ToLower(s)
+}
+
+func main() {
+	const module = "github.com/example/app"
+	sc := bufio.NewScanner(os.Stdin)
+	sc.Buffer(make([]byte, 1<<20), 1<<20)
+	for sc.Scan() {
+		line, err := strconv.Unquote(sc.Text())
+		if err != nil {
+			panic(err)
+		}
+		flags, err := shellwords.Parse(line)
+		if err != nil {
+			fmt.Printf("%q\t\tERR\n", line)
+			continue
+		}
+		fset := pflag.NewFlagSet("ldflags", pflag.ContinueOnError)
+		fset.ParseErrorsAllowlist.UnknownFlags = true
+		fset.SetOutput(new(strings.Builder))
+		var x map[string]string
+		fset.StringToStringVarP(&x, "", "X", nil, "")
+		fset.BoolP("help", "h", false, "")
+		if err := fset.Parse(flags); err != nil {
+			fmt.Printf("%q\t\tERR\n", line)
+			continue
+		}
+		found := make([][]string, 3)
+		for key, val := range x {
+			key = strings.TrimLeft(key, `'`)
+			val = strings.TrimRight(val, `'`)
+			if isVersionXKey(key) && isValidSemVer(val) {
+				switch {
+				case strings.HasPrefix(key, module+"/cmd/"):
+					found[0] = append(found[0], val)
+				case defaultVersionPrefixes[versionPrefix(key)]:
+					found[1] = append(found[1], val)
+				default:
+					found[2] = append(found[2], val)
+				}
+			}
+		}
+		ver := ""
+		for _, vs := range found {
+			if len(vs) == 0 {
+				continue
+			}
+			if len(vs) == 1 {
+				ver = vs[0]
+			}
+			break
+		}
+		if x == nil {
+			x = map[string]string{}
+		}
+		m, _ := json.Marshal(x)
+		fmt.Printf("%q\t%s\t%s\n", line, ver, m)
+	}
+}

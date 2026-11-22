@@ -1,0 +1,275 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "metadata": {
+  "component": {
+   "type": "application",
+   "name": "my-app",
+   "bom-ref": "root",
+   "purl": "pkg:npm/my-app@1.0.0"
+  }
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "core",
+   "purl": "pkg:npm/%40babel/core@7.22.0",
+   "group": "@babel",
+   "bom-ref": "a"
+  },
+  {
+   "type": "library",
+   "name": "bad-scope",
+   "purl": "pkg:npm/@scope"
+  },
+  {
+   "type": "library",
+   "name": "upper",
+   "purl": "PKG:NPM/upper@1.0.0"
+  },
+  {
+   "type": "library",
+   "name": "slashes",
+   "purl": "pkg://npm/slashes@2.0.0"
+  },
+  {
+   "type": "library",
+   "name": "x",
+   "purl": "pkg:npm/x@1.0.0%2Bbuild.1"
+  },
+  {
+   "type": "library",
+   "name": "badpct",
+   "purl": "pkg:npm/badpct@1.%ZZ"
+  },
+  {
+   "type": "library",
+   "name": "a",
+   "purl": "pkg:npm/a@b@3.0.0"
+  },
+  {
+   "type": "library",
+   "name": "nover",
+   "purl": "pkg:npm/nover"
+  },
+  {
+   "type": "library",
+   "name": "spacever",
+   "purl": "pkg:npm/spacever@%201.0.0%20"
+  },
+  {
+   "type": "library",
+   "name": "ctrlver",
+   "purl": "pkg:npm/ctrlver@1.0%07"
+  },
+  {
+   "type": "library",
+   "name": "log4j-core",
+   "purl": "pkg:maven/org.apache.logging.log4j/log4j-core@2.14.1",
+   "group": "org.apache.logging.log4j"
+  },
+  {
+   "type": "library",
+   "name": "Django_Rest",
+   "purl": "pkg:pypi/Django_Rest@3.14.0"
+  },
+  {
+   "type": "library",
+   "name": "bar",
+   "purl": "pkg:golang/GitHub.com/Foo/Bar@v1.2.3",
+   "group": "GitHub.com/Foo"
+  },
+  {
+   "type": "library",
+   "name": "http-kernel",
+   "purl": "pkg:composer/Symfony/HTTP-Kernel@v5.4.0",
+   "group": "symfony"
+  },
+  {
+   "type": "library",
+   "name": "rails",
+   "purl": "pkg:gem/rails@7.0.0"
+  },
+  {
+   "type": "library",
+   "name": "serde",
+   "purl": "pkg:cargo/serde@1.0.0"
+  },
+  {
+   "type": "library",
+   "name": "Newtonsoft.Json",
+   "purl": "pkg:nuget/Newtonsoft.Json@13.0.1"
+  },
+  {
+   "type": "library",
+   "name": "plug",
+   "purl": "pkg:hex/plug@1.14.0"
+  },
+  {
+   "type": "library",
+   "name": "http",
+   "purl": "pkg:pub/http@1.0.0"
+  },
+  {
+   "type": "library",
+   "name": "HTTP",
+   "purl": "pkg:julia/HTTP@1.10.0?uuid=cd3eb016-35fb-5094-929b-558a96fad6f3"
+  },
+  {
+   "type": "library",
+   "name": "NoUUID",
+   "purl": "pkg:julia/NoUUID@1.0.0"
+  },
+  {
+   "type": "library",
+   "name": "numpy",
+   "purl": "pkg:conda/numpy@1.26.0"
+  },
+  {
+   "type": "library",
+   "name": "swift-nio",
+   "purl": "pkg:swift/github.com/apple/swift-nio@2.0.0"
+  },
+  {
+   "type": "library",
+   "name": "nonamespace",
+   "purl": "pkg:swift/nonamespace@1.0.0"
+  },
+  {
+   "type": "library",
+   "name": "GoogleUtilities",
+   "purl": "pkg:cocoapods/GoogleUtilities@7.5.2#NSData+zlib"
+  },
+  {
+   "type": "library",
+   "name": "nginx",
+   "purl": "pkg:bitnami/Nginx@1.25.3-0?arch=amd64&distro=debian-12"
+  },
+  {
+   "type": "library",
+   "name": "kubelet",
+   "purl": "pkg:k8s/k8s.io/kubelet@1.28.0"
+  },
+  {
+   "type": "library",
+   "name": "openssl",
+   "purl": "pkg:generic/openssl@3.0.0"
+  },
+  {
+   "type": "library",
+   "name": "libc6",
+   "purl": "pkg:deb/debian/libc6@2.36-9?arch=amd64"
+  },
+  {
+   "type": "library",
+   "name": "dupq",
+   "purl": "pkg:npm/dupq@1.0.0?a=1&a=2"
+  },
+  {
+   "type": "library",
+   "name": "badkey",
+   "purl": "pkg:npm/badkey@1.0.0?1a=x"
+  },
+  {
+   "type": "library",
+   "name": "emptyq",
+   "purl": "pkg:npm/emptyq@1.0.0?a=&b=c&&"
+  },
+  {
+   "type": "library",
+   "name": "semi",
+   "purl": "pkg:npm/semi@1.0.0?a=1;b=2"
+  },
+  {
+   "type": "library",
+   "name": "sub",
+   "purl": "pkg:npm/sub@1.0.0#a/../b"
+  },
+  {
+   "type": "library",
+   "name": "subok",
+   "purl": "pkg:npm/subok@1.0.0#../b/"
+  },
+  {
+   "type": "library",
+   "name": "ext",
+   "purl": "pkg:chrome-extension/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@1.2.3.4"
+  },
+  {
+   "type": "library",
+   "name": "badext",
+   "purl": "pkg:chrome-extension/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@1.2"
+  },
+  {
+   "type": "library",
+   "name": "Moose",
+   "purl": "pkg:cpan/Moose@2.0"
+  },
+  {
+   "type": "library",
+   "name": "Moose2",
+   "purl": "pkg:cpan/lower/Moose@2.0"
+  },
+  {
+   "type": "library",
+   "name": "badtype",
+   "purl": "pkg:1bad/x@1"
+  },
+  {
+   "type": "library",
+   "name": "notype",
+   "purl": "pkg:npm"
+  },
+  {
+   "type": "library",
+   "name": "nopurl",
+   "purl": ""
+  },
+  {
+   "type": "file",
+   "name": "fileType",
+   "purl": "pkg:npm/fileType@1.0.0"
+  },
+  {
+   "type": "device",
+   "name": "device",
+   "purl": "pkg:npm/device@1.0.0"
+  },
+  {
+   "type": "cryptographic-asset",
+   "name": "crypto",
+   "purl": "pkg:npm/crypto@1.0.0"
+  },
+  {
+   "type": "library",
+   "name": "withgroup",
+   "purl": "pkg:npm/withgroup@1.0.0",
+   "group": "grp"
+  },
+  {
+   "type": "application",
+   "name": "container-app",
+   "properties": [
+    {
+     "name": "aquasecurity:trivy:Type",
+     "value": "jar"
+    }
+   ]
+  },
+  {
+   "type": "framework",
+   "name": "framework",
+   "purl": "pkg:npm/framework@4.0.0"
+  },
+  {
+   "type": "library",
+   "name": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn",
+   "purl": "pkg:npm/nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn@1.0.0"
+  },
+  {
+   "type": "library",
+   "name": "€uro",
+   "purl": "pkg:npm/%E2%82%AC@1.0.0"
+  }
+ ]
+}

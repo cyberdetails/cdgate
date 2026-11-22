@@ -1,0 +1,198 @@
+{
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "spdxVersion": "SPDX-2.3",
+    "creationInfo": {
+        "created": "2025-06-26T12:17:24Z",
+        "creators": [
+            "Organization: Broadcom Inc. and/or its subsidiaries.",
+            "Tool: Blacksmith-6.46.3"
+        ]
+    },
+    "name": "SPDX document for NGINX Open Source 1.29.0",
+    "dataLicense": "CC0-1.0",
+    "documentDescribes": [
+        "SPDXRef-nginx"
+    ],
+    "documentNamespace": "pkg:bitnami/nginx@1.29.0-0?arch=amd64&distro=debian-12",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-libmaxminddb",
+            "name": "libmaxminddb",
+            "versionInfo": "1.12.2",
+            "downloadLocation": "https://github.com/maxmind/libmaxminddb/archive/1.12.2.tar.gz",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "supplier": "Organization: Bitnami",
+            "originator": "Organization: upstream",
+            "primaryPackagePurpose": "APPLICATION",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:*:maxmind:libmaxminddb:1.12.2:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:bitnami/libmaxminddb@1.12.2?arch=amd64&distro=debian-12"
+                }
+            ],
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-nginx-module-vts",
+            "name": "nginx-module-vts",
+            "versionInfo": "0.2.4",
+            "downloadLocation": "https://github.com/vozlt/nginx-module-vts/archive/v0.2.4.tar.gz",
+            "licenseConcluded": "BSD-2-Clause",
+            "licenseDeclared": "BSD-2-Clause",
+            "supplier": "Organization: Bitnami",
+            "originator": "Organization: upstream",
+            "primaryPackagePurpose": "APPLICATION",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:*:nginx-module-vts:nginx-module-vts:0.2.4:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:bitnami/nginx-module-vts@0.2.4?arch=amd64&distro=debian-12"
+                }
+            ],
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-nginx-module-geoip2",
+            "name": "nginx-module-geoip2",
+            "versionInfo": "3.4.0",
+            "downloadLocation": "https://github.com/leev/ngx_http_geoip2_module/archive/3.4.tar.gz",
+            "licenseConcluded": "BSD-2-Clause",
+            "licenseDeclared": "BSD-2-Clause",
+            "supplier": "Organization: Bitnami",
+            "originator": "Organization: upstream",
+            "primaryPackagePurpose": "APPLICATION",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:*:nginx-module-geoip2:nginx-module-geoip2:3.4.0:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:bitnami/nginx-module-geoip2@3.4.0?arch=amd64&distro=debian-12"
+                }
+            ],
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-nginx-module-substitutions-filter",
+            "name": "nginx-module-substitutions-filter",
+            "versionInfo": "0.20220124.0",
+            "downloadLocation": "https://github.com/yaoweibin/ngx_http_substitutions_filter_module/archive/master.zip",
+            "licenseConcluded": "BSD-2-Clause",
+            "licenseDeclared": "BSD-2-Clause",
+            "supplier": "Organization: Bitnami",
+            "originator": "Organization: upstream",
+            "primaryPackagePurpose": "APPLICATION",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:*:nginx-module-substitutions-filter:nginx-module-substitutions-filter:0.20220124.0:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:bitnami/nginx-module-substitutions-filter@0.20220124.0?arch=amd64&distro=debian-12"
+                }
+            ],
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-nginx-module-brotli",
+            "name": "nginx-module-brotli",
+            "versionInfo": "0.20231009.0",
+            "downloadLocation": "git+https://github.com/google/ngx_brotli",
+            "licenseConcluded": "BSD-2-Clause",
+            "licenseDeclared": "BSD-2-Clause",
+            "supplier": "Organization: Bitnami",
+            "originator": "Organization: upstream",
+            "primaryPackagePurpose": "APPLICATION",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:*:nginx-module-brotli:nginx-module-brotli:0.20231009.0:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:bitnami/nginx-module-brotli@0.20231009.0?arch=amd64&distro=debian-12"
+                }
+            ],
+            "copyrightText": "NOASSERTION"
+        },
+        {
+            "SPDXID": "SPDXRef-nginx",
+            "name": "nginx",
+            "versionInfo": "1.29.0-0",
+            "downloadLocation": "http://nginx.org/download/nginx-1.29.0.tar.gz",
+            "licenseConcluded": "BSD-2-Clause",
+            "licenseDeclared": "BSD-2-Clause",
+            "supplier": "Organization: Bitnami",
+            "originator": "Organization: upstream",
+            "primaryPackagePurpose": "APPLICATION",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:*:f5:nginx:1.29.0:*:*:*:*:*:*:*"
+                },
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:bitnami/nginx@1.29.0-0?arch=amd64&distro=debian-12"
+                }
+            ],
+            "copyrightText": "NOASSERTION"
+        }
+    ],
+    "files": [],
+    "hasExtractedLicensingInfos": [],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-nginx",
+            "relationshipType": "CONTAINS",
+            "relatedSpdxElement": "SPDXRef-libmaxminddb"
+        },
+        {
+            "spdxElementId": "SPDXRef-nginx",
+            "relationshipType": "CONTAINS",
+            "relatedSpdxElement": "SPDXRef-nginx-module-vts"
+        },
+        {
+            "spdxElementId": "SPDXRef-nginx",
+            "relationshipType": "CONTAINS",
+            "relatedSpdxElement": "SPDXRef-nginx-module-geoip2"
+        },
+        {
+            "spdxElementId": "SPDXRef-nginx",
+            "relationshipType": "CONTAINS",
+            "relatedSpdxElement": "SPDXRef-nginx-module-substitutions-filter"
+        },
+        {
+            "spdxElementId": "SPDXRef-nginx",
+            "relationshipType": "CONTAINS",
+            "relatedSpdxElement": "SPDXRef-nginx-module-brotli"
+        }
+    ]
+}

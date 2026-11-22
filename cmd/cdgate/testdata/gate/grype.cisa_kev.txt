@@ -1,0 +1,9 @@
+exit=0
+CyberDetails SCA gate VERSION — grype: 2 finding(s), 2 distinct CVE(s); block at: cisa_kev
+  scanner severity: 1 CRITICAL, 1 HIGH
+  exploitation:     2 standard
+
+  + 2 more upgrade(s) fix 2 other finding(s); full plan in --json-out.
+
+Version matching comes from the scanner; CyberDetails ranks by exploitation evidence.
+RESULT: PASS

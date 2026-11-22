@@ -1,0 +1,47 @@
+exit=0
+CyberDetails SCA gate VERSION — trivy: 1091 finding(s), 637 distinct CVE(s); block at: never
+  scanner severity: 31 CRITICAL, 307 HIGH, 419 MEDIUM, 310 LOW, 24 UNKNOWN
+  exploitation:     224 known exploited, 194 high, 428 standard, 223 not in archive, 22 without CVE
+  base OS:          debian 11.3 — END OF LIFE: the distribution no longer ships security fixes; rebuild on a supported base image
+
+REVIEW — 255 CVE(s) with strong signals, not blocking at this threshold (top 10)
+  CVE-2005-2541     Public exploit code.
+      tar 1.34+dfsg-1 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2005-2541
+  CVE-2007-5686     aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      login, passwd 1:4.8.1-1 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2007-5686
+  CVE-2010-4756     Public exploit code.
+      libc-bin, libc6 2.31-13+deb11u3 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2010-4756
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-10
+  CVE-2017-11164    Public exploit code.
+      libpcre3 2:8.39-13 (no fix listed)
+  CVE-2017-16231    Listed in CISA KEV.
+      libpcre3 2:8.39-13 (no fix listed)
+  CVE-2017-17740    Public exploit code.
+      libldap-2.4-2 2.4.57+dfsg-3+deb11u1 (no fix listed)
+  CVE-2018-20796    Listed in CISA KEV.
+      libc-bin, libc6 2.31-13+deb11u3 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2018-20796
+      detect: SIEM queries (Sigma, Sentinel KQL) https://cyberdetails.org/exploit/cde-218
+  CVE-2019-1010022  aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      libc-bin, libc6 2.31-13+deb11u3 (no fix listed)
+  CVE-2019-1010024  Listed in CISA KEV.
+      libc-bin, libc6 2.31-13+deb11u3 (no fix listed)
+  CVE-2019-20838    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      libpcre3 2:8.39-13 (no fix listed)
+
+FIX PLAN — 27 upgrade(s) fix 110 high-signal CVE(s) (top 5)
+  libssl1.1, openssl                             1.1.1n-0+deb11u2 -> 1.1.1w-0+deb11u8   16 high, +20 other
+  libtiff5                                       4.2.0-1+deb11u1 -> 4.2.0-1+deb11u7 (all listed fixes: 4.2.0-1+deb11u8)   14 high, +38 other
+  libgnutls30                                    3.7.1-5 -> 3.7.1-5+deb11u10   12 high, +13 other
+  curl, libcurl4                                 7.74.0-1.3+deb11u1 -> 7.74.0-1.3+deb11u12 (all listed fixes: 7.74.0-1.3+deb11u…   9 high, +25 other
+  libxml2                                        2.9.10+dfsg-6.7+deb11u2 -> 2.9.10+dfsg-6.7+deb11u10   9 high, +17 other
+  run: apt-get update && apt-get install -y --only-upgrade libssl1.1 openssl libtiff5 libgnutls30 curl libcurl4 libxml2 libc-bin libc6 libpng16-16 libsystemd0 libudev1 libexpat1 libgssapi-krb5-2 libk5crypto3 libkrb5-3 libkrb5support0 libgd3 libxslt1.1 libnghttp2-14 gpgv libpcre2-8-0 libxpm4 libfreetype6 libsepol1 perl-base libpam-modules libpam-modules-bin libpam-runtime libpam0g libtasn1-6 libwebp6 tar e2fsprogs libcom-err2 libext2fs2 libss2 logsave libssh2-1 libtirpc-common libtirpc3 zlib1g
+  + 11 more upgrade(s) fix 21 other finding(s); full plan in --json-out.
+
+NOTE — 223 finding(s) have no CyberDetails record. They are NOT judged safe; use --block-unknown to fail on them.
+NOTE — 22 finding(s) have no CVE identifier (e.g. GHSA-only) and were not sent.
+Version matching comes from the scanner; CyberDetails ranks by exploitation evidence.
+RESULT: PASS

@@ -1,0 +1,21 @@
+attr.spdx	lang	npm	x	1.0.0
+badcreator.spdx	ERR	failed to decode: failed to load tag-value spdx: unrecognized Creator type Robot
+docref_nocolon.spdx	ERR	failed to decode: failed to load tag-value spdx: no colon found although DocumentRef- prefix present
+docref2colon.spdx	ERR	failed to decode: failed to load tag-value spdx: more than one colon found
+fileok.spdx	lang	npm	a	1
+fileok.spdx	lang	npm	b	2
+longline.spdx	ERR	failed to decode: failed to load tag-value spdx: bufio.Scanner: token too long
+nocolon.spdx	ERR	failed to decode: failed to load tag-value spdx: no colon found in 'this line has no colon'
+nofileid.spdx	ERR	failed to decode: failed to load tag-value spdx: file with FileName ./f does not have SPDX identifier
+nopkgid.spdx	ERR	failed to decode: failed to load tag-value spdx: package with PackageName a does not have SPDX identifier
+ok_text.spdx	os	deb	libc6	2.36-9	src=glibc|2.36|9|0|class=|ep=0|rel=
+ref2.spdx	ERR	failed to decode: failed to load tag-value spdx: expected 3 elements, got 2
+ref4.spdx	ERR	failed to decode: failed to load tag-value spdx: expected 3 elements, got 4
+rel_after_license.spdx	lang	npm	a	1
+rel_none_left.spdx	ERR	failed to decode: failed to load tag-value spdx: missing SPDXRef- prefix for element identifier
+rel_none.spdx	lang	npm	a	1
+unfinished.spdx	ERR	failed to decode: failed to load tag-value spdx: finalize called while still midtext parsing a text tag
+unknownci.spdx	ERR	failed to decode: failed to load tag-value spdx: received unknown tag Bogus in CreationInfo section
+unknowntag.spdx	ERR	failed to decode: failed to load tag-value spdx: received unknown tag BogusTag in Package section
+v21.spdx	lang	npm	a	1
+v30.spdx	ERR	failed to decode: failed to load tag-value spdx: unsupported SPDX version: 'SPDX-3.0'

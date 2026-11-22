@@ -1,0 +1,44 @@
+{
+ "bomFormat": "CycloneDX",
+ "components": [
+  {
+   "type": "application",
+   "name": "img",
+   "bom-ref": "app",
+   "properties": [
+    {
+     "name": "Type",
+     "value": ""
+    }
+   ]
+  },
+  {
+   "type": "library",
+   "name": "libc6",
+   "purl": "pkg:deb/debian/libc6@2.36-9",
+   "bom-ref": "d"
+  },
+  {
+   "type": "library",
+   "name": "glibc",
+   "purl": "pkg:rpm/redhat/glibc@2.34-60.el9",
+   "bom-ref": "r"
+  },
+  {
+   "type": "library",
+   "name": "left-pad",
+   "purl": "pkg:npm/left-pad@1.3.0",
+   "bom-ref": "n"
+  }
+ ],
+ "dependencies": [
+  {
+   "ref": "app",
+   "dependsOn": [
+    "d",
+    "r",
+    "n"
+   ]
+  }
+ ]
+}

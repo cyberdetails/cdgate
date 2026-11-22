@@ -1,0 +1,4 @@
+/cdgate
+*.test
+*.out
+.DS_Store

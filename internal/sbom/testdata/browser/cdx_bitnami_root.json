@@ -1,0 +1,1 @@
+{"bomFormat": "CycloneDX", "metadata": {"component": {"type": "application", "name": "nginx", "purl": "pkg:bitnami/nginx@1.25.3"}}, "components": null, "dependencies": null}

@@ -1,0 +1,17 @@
+exit=1
+CyberDetails SCA gate VERSION — trivy: 2 finding(s), 2 distinct CVE(s); block at: high
+  scanner severity: 1 HIGH, 1 MEDIUM
+  exploitation:     1 known exploited, 1 not in archive
+
+BLOCKED — 1 CVE(s), 1 finding(s)
+  CVE-2026-119790   aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      next 16.4.1 -> 16.4.5
+      https://cyberdetails.org/cve/CVE-2026-119790
+
+FIX PLAN — 1 upgrade(s) clear all 1 blocked CVE(s)
+  next (package-lock.json)                       16.4.1 -> 16.4.5   1 blocked
+  + 1 more upgrade(s) fix 1 other finding(s); full plan in --json-out.
+
+NOTE — 1 finding(s) have no CyberDetails record. They are NOT judged safe; use --block-unknown to fail on them.
+Version matching comes from the scanner; CyberDetails ranks by exploitation evidence.
+RESULT: FAIL (1 blocked)

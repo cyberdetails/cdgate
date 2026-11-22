@@ -1,0 +1,1 @@
+{"bomFormat": "CycloneDX", "components": [{"type": "operating-system", "bom-ref": "os", "name": "debian", "version": "12.5"}, {"type": "library", "bom-ref": "j", "name": "b", "purl": "pkg:deb/debian/b@1.0", "properties": [{"name": "aquasecurity:trivy:SrcEpoch", "value": "x"}]}], "dependencies": [{"ref": "os", "dependsOn": ["j"]}]}

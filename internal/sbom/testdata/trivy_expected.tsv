@@ -1,0 +1,32 @@
+bitnami_component.spdx	lang	bitnami	libmaxminddb	1.12.2
+bitnami_component.spdx	lang	bitnami	nginx	1.29.0-0
+bitnami_component.spdx	lang	bitnami	nginx-module-brotli	0.20231009.0
+bitnami_component.spdx	lang	bitnami	nginx-module-geoip2	3.4.0
+bitnami_component.spdx	lang	bitnami	nginx-module-substitutions-filter	0.20220124.0
+bitnami_component.spdx	lang	bitnami	nginx-module-vts	0.2.4
+edge_cdx_badroot.json	ERR	failed to decode: failed to parse sbom: failed to parse root component: failed to parse metadata component: failed to parse PURL: purl is missing name
+edge_cdx_mix.json	lang	bitnami	redis	7.2.0
+edge_cdx_mix.json	lang	cocoapods	GoogleUtilities/NSData+zlib	7.5.2
+edge_cdx_mix.json	lang	conda	x	3.1.4
+edge_cdx_mix.json	lang	golang	appwithpurl	v1.2.3
+edge_cdx_mix.json	lang	maven	org.springframework:spring-core	5.3.27
+edge_cdx_mix.json	lang	npm	@babel/core	7.0.0
+edge_cdx_mix.json	lang	npm	lodash	4.17.20
+edge_cdx_mix.json	lang	npm	myapp	1.0.0
+edge_cdx_mix.json	lang	npm	nover	
+edge_cdx_mix.json	lang	pypi	Django	3.2.0
+edge_cdx_mix.json	os	deb	bash	5.2-1
+edge_cdx_multios_reached.json	os	apk	musl	1.2.4
+edge_cdx_multios_reached.json	os	deb	bash	5.2
+edge_cdx_multios.json	ERR	failed to decode: failed to aggregate packages: multiple types of OS packages in SBOM are not supported (["deb" "apk"])
+edge_cdx.xml	ERR	cyclonedx-xml scanning is not yet supported
+edge_spdx_badid.json	ERR	failed to decode: failed to load spdx json: failed to parse ElementID: a
+edge_spdx_badpurl.json	ERR	failed to decode: failed to unmarshal spdx: package parse error: failed to parse package: external references error: failed to parse purl from string: a julia purl must have a uuid qualifier
+edge_spdx_badver.json	ERR	failed to decode: failed to load spdx json: unsupported SDPX version: SPDX-3.0
+edge_spdx_mix.json	lang	npm	lodash	4.17.20
+edge_spdx_mix.json	lang	npm	myroot	1.0.0
+edge_spdx_mix.json	lang	npm	two	1.0.0
+edge_spdx_mix.json	lang	npm	underscore-cat	1.0.0
+edge_spdx_mix.json	lang	pypi	appc	2.0.0
+edge_spdx_v22.json	lang	npm	lodash	4.17.20
+edge_spdx.tv	lang	npm	lodash	4.17.20

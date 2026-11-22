@@ -1,0 +1,2189 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.7.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.7",
+  "serialNumber": "urn:uuid:4e30df47-1322-4b95-bc26-ec4f18547f0d",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-18T17:33:49+00:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "manufacturer": {
+            "name": "Aqua Security Software Ltd."
+          },
+          "group": "aquasecurity",
+          "name": "trivy",
+          "version": "dev"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "4d8c405f-a92f-458d-a029-77701fc53fe6",
+      "type": "application",
+      "name": "/lab/app",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:SchemaVersion",
+          "value": "2"
+        }
+      ]
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "089f945c-5d27-4f2f-9168-323b78f1854d",
+      "type": "application",
+      "name": "jl/syn/Manifest.toml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "469d452b-7b60-4d92-a2dc-80b000e38819",
+      "type": "application",
+      "name": "jl/doc2/Manifest.toml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "ea066259-8182-42d6-a414-1a22fda95221",
+      "type": "application",
+      "name": "jl/v1/Manifest.toml",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:Class",
+          "value": "lang-pkgs"
+        },
+        {
+          "name": "aquasecurity:trivy:Type",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:conda/openssl@3.1.4",
+      "type": "library",
+      "name": "openssl",
+      "version": "3.1.4",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "fa9d502036bae4af96d1889103955eb043ef6074"
+        }
+      ],
+      "purl": "pkg:conda/openssl@3.1.4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "opt/conda/envs/py/conda-meta/openssl-3.1.4-hd590300_0.json"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "conda-pkg"
+        },
+        {
+          "name": "aquasecurity:trivy:SourcedDigest",
+          "value": "file-content:sha1:fa9d502036bae4af96d1889103955eb043ef6074"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:conda/requests@2.31.0",
+      "type": "library",
+      "name": "requests",
+      "version": "2.31.0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "7882138f8a825e15557df80e77ddaa5d0f6ab1a4"
+        }
+      ],
+      "purl": "pkg:conda/requests@2.31.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "opt/conda/envs/py/conda-meta/requests-2.31.0-pyhd8ed1ab_0.json"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "conda-pkg"
+        },
+        {
+          "name": "aquasecurity:trivy:SourcedDigest",
+          "value": "file-content:sha1:7882138f8a825e15557df80e77ddaa5d0f6ab1a4"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:conda/trail@1.0",
+      "type": "library",
+      "name": "trail",
+      "version": "1.0",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "54d1f30183fe1d14fa80ae2405216dda4963b95f"
+        }
+      ],
+      "purl": "pkg:conda/trail@1.0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:FilePath",
+          "value": "opt/conda/envs/py/conda-meta/trail-1.0-0.json"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "conda-pkg"
+        },
+        {
+          "name": "aquasecurity:trivy:SourcedDigest",
+          "value": "file-content:sha1:54d1f30183fe1d14fa80ae2405216dda4963b95f"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/ANSIColoredPrinters@0.0.1?uuid=a4c015fc-c6ff-483c-b24f-f7ea428134e9",
+      "type": "library",
+      "name": "ANSIColoredPrinters",
+      "version": "0.0.1",
+      "purl": "pkg:julia/ANSIColoredPrinters@0.0.1?uuid=a4c015fc-c6ff-483c-b24f-f7ea428134e9",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "a4c015fc-c6ff-483c-b24f-f7ea428134e9"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/AbstractTrees@0.4.5?uuid=1520ce14-60c1-5f80-bbc7-55ef81b5835c",
+      "type": "library",
+      "name": "AbstractTrees",
+      "version": "0.4.5",
+      "purl": "pkg:julia/AbstractTrees@0.4.5?uuid=1520ce14-60c1-5f80-bbc7-55ef81b5835c",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "1520ce14-60c1-5f80-bbc7-55ef81b5835c"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Alpha@1.2.3?uuid=00000000-0000-0000-0000-00000000000a",
+      "type": "library",
+      "name": "Alpha",
+      "version": "1.2.3",
+      "purl": "pkg:julia/Alpha@1.2.3?uuid=00000000-0000-0000-0000-00000000000a",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "00000000-0000-0000-0000-00000000000a"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/ArgTools@1.1.2?uuid=0dad84c5-d112-42e6-8d28-ef12dabb789f",
+      "type": "library",
+      "name": "ArgTools",
+      "version": "1.1.2",
+      "purl": "pkg:julia/ArgTools@1.1.2?uuid=0dad84c5-d112-42e6-8d28-ef12dabb789f",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "0dad84c5-d112-42e6-8d28-ef12dabb789f"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Artifacts@1.11.0?uuid=56f22d72-fd6d-98f1-02f0-08ddc0907c33",
+      "type": "library",
+      "name": "Artifacts",
+      "version": "1.11.0",
+      "purl": "pkg:julia/Artifacts@1.11.0?uuid=56f22d72-fd6d-98f1-02f0-08ddc0907c33",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Base64@1.11.0?uuid=2a0f44e3-6c83-55bd-87e4-b1978d98bd5f",
+      "type": "library",
+      "name": "Base64",
+      "version": "1.11.0",
+      "purl": "pkg:julia/Base64@1.11.0?uuid=2a0f44e3-6c83-55bd-87e4-b1978d98bd5f",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Base64@unknown?uuid=2a0f44e3-6c83-55bd-87e4-b1978d98bd5f",
+      "type": "library",
+      "name": "Base64",
+      "version": "unknown",
+      "purl": "pkg:julia/Base64@unknown?uuid=2a0f44e3-6c83-55bd-87e4-b1978d98bd5f",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Beta@0.5.0%2B1?uuid=00000000-0000-0000-0000-00000000000b",
+      "type": "library",
+      "name": "Beta",
+      "version": "0.5.0+1",
+      "purl": "pkg:julia/Beta@0.5.0%2B1?uuid=00000000-0000-0000-0000-00000000000b",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "00000000-0000-0000-0000-00000000000b"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/CodecZlib@0.7.6?uuid=944b1d66-785c-5afd-91f1-9de20f533193",
+      "type": "library",
+      "name": "CodecZlib",
+      "version": "0.7.6",
+      "purl": "pkg:julia/CodecZlib@0.7.6?uuid=944b1d66-785c-5afd-91f1-9de20f533193",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "944b1d66-785c-5afd-91f1-9de20f533193"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Dates@1.11.0?uuid=ade2ca70-3891-5945-98fb-dc099432e06a",
+      "type": "library",
+      "name": "Dates",
+      "version": "1.11.0",
+      "purl": "pkg:julia/Dates@1.11.0?uuid=ade2ca70-3891-5945-98fb-dc099432e06a",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "ade2ca70-3891-5945-98fb-dc099432e06a"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Dates@unknown?uuid=ade2ca70-3891-5945-98fb-dc099432e06a",
+      "type": "library",
+      "name": "Dates",
+      "version": "unknown",
+      "purl": "pkg:julia/Dates@unknown?uuid=ade2ca70-3891-5945-98fb-dc099432e06a",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "ade2ca70-3891-5945-98fb-dc099432e06a"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Distributed@unknown?uuid=8ba89e20-285c-5b6f-9357-94700520ee1b",
+      "type": "library",
+      "name": "Distributed",
+      "version": "unknown",
+      "purl": "pkg:julia/Distributed@unknown?uuid=8ba89e20-285c-5b6f-9357-94700520ee1b",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "8ba89e20-285c-5b6f-9357-94700520ee1b"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/DocStringExtensions@0.8.1?uuid=ffbed154-4ef7-542d-bbb7-c09d3a79fcae",
+      "type": "library",
+      "name": "DocStringExtensions",
+      "version": "0.8.1",
+      "purl": "pkg:julia/DocStringExtensions@0.8.1?uuid=ffbed154-4ef7-542d-bbb7-c09d3a79fcae",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/DocStringExtensions@0.9.3?uuid=ffbed154-4ef7-542d-bbb7-c09d3a79fcae",
+      "type": "library",
+      "name": "DocStringExtensions",
+      "version": "0.9.3",
+      "purl": "pkg:julia/DocStringExtensions@0.9.3?uuid=ffbed154-4ef7-542d-bbb7-c09d3a79fcae",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Documenter@0.24.11?uuid=e30172f5-a6a5-5a46-863b-614d45cd2de4",
+      "type": "library",
+      "name": "Documenter",
+      "version": "0.24.11",
+      "purl": "pkg:julia/Documenter@0.24.11?uuid=e30172f5-a6a5-5a46-863b-614d45cd2de4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Documenter@1.8.0?uuid=e30172f5-a6a5-5a46-863b-614d45cd2de4",
+      "type": "library",
+      "name": "Documenter",
+      "version": "1.8.0",
+      "purl": "pkg:julia/Documenter@1.8.0?uuid=e30172f5-a6a5-5a46-863b-614d45cd2de4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/DocumenterLaTeX@0.2.0?uuid=cd674d7a-5f81-5cf3-af33-235ef1834b99",
+      "type": "library",
+      "name": "DocumenterLaTeX",
+      "version": "0.2.0",
+      "purl": "pkg:julia/DocumenterLaTeX@0.2.0?uuid=cd674d7a-5f81-5cf3-af33-235ef1834b99",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "cd674d7a-5f81-5cf3-af33-235ef1834b99"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Downloads@1.6.0?uuid=f43a241f-c20a-4ad4-852c-f6b1247861c6",
+      "type": "library",
+      "name": "Downloads",
+      "version": "1.6.0",
+      "purl": "pkg:julia/Downloads@1.6.0?uuid=f43a241f-c20a-4ad4-852c-f6b1247861c6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "f43a241f-c20a-4ad4-852c-f6b1247861c6"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Expat_jll@2.6.2%2B0?uuid=2e619515-83b5-522b-bb60-26c02a35a201",
+      "type": "library",
+      "name": "Expat_jll",
+      "version": "2.6.2+0",
+      "purl": "pkg:julia/Expat_jll@2.6.2%2B0?uuid=2e619515-83b5-522b-bb60-26c02a35a201",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "2e619515-83b5-522b-bb60-26c02a35a201"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/FileWatching@1.11.0?uuid=7b1f6079-737a-58dc-b8bc-7a2ca5c1b5ee",
+      "type": "library",
+      "name": "FileWatching",
+      "version": "1.11.0",
+      "purl": "pkg:julia/FileWatching@1.11.0?uuid=7b1f6079-737a-58dc-b8bc-7a2ca5c1b5ee",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "7b1f6079-737a-58dc-b8bc-7a2ca5c1b5ee"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Git@1.3.1?uuid=d7ba0133-e1db-5d97-8f8c-041e4b3a1eb2",
+      "type": "library",
+      "name": "Git",
+      "version": "1.3.1",
+      "purl": "pkg:julia/Git@1.3.1?uuid=d7ba0133-e1db-5d97-8f8c-041e4b3a1eb2",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "d7ba0133-e1db-5d97-8f8c-041e4b3a1eb2"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Git_jll@2.46.2%2B0?uuid=f8c6e375-362e-5223-8a59-34ff63f689eb",
+      "type": "library",
+      "name": "Git_jll",
+      "version": "2.46.2+0",
+      "purl": "pkg:julia/Git_jll@2.46.2%2B0?uuid=f8c6e375-362e-5223-8a59-34ff63f689eb",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "f8c6e375-362e-5223-8a59-34ff63f689eb"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/IOCapture@0.2.5?uuid=b5f81e59-6552-4d32-b1f0-c071b021bf89",
+      "type": "library",
+      "name": "IOCapture",
+      "version": "0.2.5",
+      "purl": "pkg:julia/IOCapture@0.2.5?uuid=b5f81e59-6552-4d32-b1f0-c071b021bf89",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "b5f81e59-6552-4d32-b1f0-c071b021bf89"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/InteractiveUtils@1.11.0?uuid=b77e0a4c-d291-57a0-90e8-8db25a27a240",
+      "type": "library",
+      "name": "InteractiveUtils",
+      "version": "1.11.0",
+      "purl": "pkg:julia/InteractiveUtils@1.11.0?uuid=b77e0a4c-d291-57a0-90e8-8db25a27a240",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "b77e0a4c-d291-57a0-90e8-8db25a27a240"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/InteractiveUtils@unknown?uuid=b77e0a4c-d291-57a0-90e8-8db25a27a240",
+      "type": "library",
+      "name": "InteractiveUtils",
+      "version": "unknown",
+      "purl": "pkg:julia/InteractiveUtils@unknown?uuid=b77e0a4c-d291-57a0-90e8-8db25a27a240",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "b77e0a4c-d291-57a0-90e8-8db25a27a240"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/JLLWrappers@1.6.1?uuid=692b3bcd-3c85-4b1f-b108-f13ce0eb3210",
+      "type": "library",
+      "name": "JLLWrappers",
+      "version": "1.6.1",
+      "purl": "pkg:julia/JLLWrappers@1.6.1?uuid=692b3bcd-3c85-4b1f-b108-f13ce0eb3210",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/JSON@0.21.0?uuid=682c06a0-de6a-54ab-a142-c8b1cf79cde6",
+      "type": "library",
+      "name": "JSON",
+      "version": "0.21.0",
+      "purl": "pkg:julia/JSON@0.21.0?uuid=682c06a0-de6a-54ab-a142-c8b1cf79cde6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/JSON@0.21.4?uuid=682c06a0-de6a-54ab-a142-c8b1cf79cde6",
+      "type": "library",
+      "name": "JSON",
+      "version": "0.21.4",
+      "purl": "pkg:julia/JSON@0.21.4?uuid=682c06a0-de6a-54ab-a142-c8b1cf79cde6",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/LazilyInitializedFields@1.3.0?uuid=0e77f7df-68c5-4e49-93ce-4cd80f5598bf",
+      "type": "library",
+      "name": "LazilyInitializedFields",
+      "version": "1.3.0",
+      "purl": "pkg:julia/LazilyInitializedFields@1.3.0?uuid=0e77f7df-68c5-4e49-93ce-4cd80f5598bf",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "0e77f7df-68c5-4e49-93ce-4cd80f5598bf"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/LibCURL@0.6.4?uuid=b27032c2-a3e7-50c8-80cd-2d36dbcbfd21",
+      "type": "library",
+      "name": "LibCURL",
+      "version": "0.6.4",
+      "purl": "pkg:julia/LibCURL@0.6.4?uuid=b27032c2-a3e7-50c8-80cd-2d36dbcbfd21",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "b27032c2-a3e7-50c8-80cd-2d36dbcbfd21"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/LibCURL_jll@8.6.0%2B0?uuid=deac9b47-8bc7-5906-a0fe-35ac56dc84c0",
+      "type": "library",
+      "name": "LibCURL_jll",
+      "version": "8.6.0+0",
+      "purl": "pkg:julia/LibCURL_jll@8.6.0%2B0?uuid=deac9b47-8bc7-5906-a0fe-35ac56dc84c0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "deac9b47-8bc7-5906-a0fe-35ac56dc84c0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/LibGit2@1.11.0?uuid=76f85450-5226-5b5a-8eaa-529ad045b433",
+      "type": "library",
+      "name": "LibGit2",
+      "version": "1.11.0",
+      "purl": "pkg:julia/LibGit2@1.11.0?uuid=76f85450-5226-5b5a-8eaa-529ad045b433",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "76f85450-5226-5b5a-8eaa-529ad045b433"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/LibGit2@unknown?uuid=76f85450-5226-5b5a-8eaa-529ad045b433",
+      "type": "library",
+      "name": "LibGit2",
+      "version": "unknown",
+      "purl": "pkg:julia/LibGit2@unknown?uuid=76f85450-5226-5b5a-8eaa-529ad045b433",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "76f85450-5226-5b5a-8eaa-529ad045b433"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/LibGit2_jll@1.7.2%2B0?uuid=e37daf67-58a4-590a-8e99-b0245dd2ffc5",
+      "type": "library",
+      "name": "LibGit2_jll",
+      "version": "1.7.2+0",
+      "purl": "pkg:julia/LibGit2_jll@1.7.2%2B0?uuid=e37daf67-58a4-590a-8e99-b0245dd2ffc5",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "e37daf67-58a4-590a-8e99-b0245dd2ffc5"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/LibSSH2_jll@1.11.0%2B1?uuid=29816b5a-b9ab-546f-933c-edad1886dfa8",
+      "type": "library",
+      "name": "LibSSH2_jll",
+      "version": "1.11.0+1",
+      "purl": "pkg:julia/LibSSH2_jll@1.11.0%2B1?uuid=29816b5a-b9ab-546f-933c-edad1886dfa8",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "29816b5a-b9ab-546f-933c-edad1886dfa8"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Libdl@1.11.0?uuid=8f399da3-3557-5675-b5ff-fb832c97cbdb",
+      "type": "library",
+      "name": "Libdl",
+      "version": "1.11.0",
+      "purl": "pkg:julia/Libdl@1.11.0?uuid=8f399da3-3557-5675-b5ff-fb832c97cbdb",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Libdl@unknown?uuid=8f399da3-3557-5675-b5ff-fb832c97cbdb",
+      "type": "library",
+      "name": "Libdl",
+      "version": "unknown",
+      "purl": "pkg:julia/Libdl@unknown?uuid=8f399da3-3557-5675-b5ff-fb832c97cbdb",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Libiconv_jll@1.17.0%2B1?uuid=94ce4f54-9a6c-5748-9c1c-f9c7231a4531",
+      "type": "library",
+      "name": "Libiconv_jll",
+      "version": "1.17.0+1",
+      "purl": "pkg:julia/Libiconv_jll@1.17.0%2B1?uuid=94ce4f54-9a6c-5748-9c1c-f9c7231a4531",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "94ce4f54-9a6c-5748-9c1c-f9c7231a4531"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Logging@1.11.0?uuid=56ddb016-857b-54e1-b83d-db4d58db5568",
+      "type": "library",
+      "name": "Logging",
+      "version": "1.11.0",
+      "purl": "pkg:julia/Logging@1.11.0?uuid=56ddb016-857b-54e1-b83d-db4d58db5568",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "56ddb016-857b-54e1-b83d-db4d58db5568"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Logging@unknown?uuid=56ddb016-857b-54e1-b83d-db4d58db5568",
+      "type": "library",
+      "name": "Logging",
+      "version": "unknown",
+      "purl": "pkg:julia/Logging@unknown?uuid=56ddb016-857b-54e1-b83d-db4d58db5568",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "56ddb016-857b-54e1-b83d-db4d58db5568"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Markdown@1.11.0?uuid=d6f4376e-aef5-505a-96c1-9c027394607a",
+      "type": "library",
+      "name": "Markdown",
+      "version": "1.11.0",
+      "purl": "pkg:julia/Markdown@1.11.0?uuid=d6f4376e-aef5-505a-96c1-9c027394607a",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "d6f4376e-aef5-505a-96c1-9c027394607a"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Markdown@unknown?uuid=d6f4376e-aef5-505a-96c1-9c027394607a",
+      "type": "library",
+      "name": "Markdown",
+      "version": "unknown",
+      "purl": "pkg:julia/Markdown@unknown?uuid=d6f4376e-aef5-505a-96c1-9c027394607a",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "d6f4376e-aef5-505a-96c1-9c027394607a"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/MarkdownAST@0.1.2?uuid=d0879d2d-cac2-40c8-9cee-1863dc0c7391",
+      "type": "library",
+      "name": "MarkdownAST",
+      "version": "0.1.2",
+      "purl": "pkg:julia/MarkdownAST@0.1.2?uuid=d0879d2d-cac2-40c8-9cee-1863dc0c7391",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "d0879d2d-cac2-40c8-9cee-1863dc0c7391"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/MbedTLS_jll@2.28.6%2B0?uuid=c8ffd9c3-330d-5841-b78e-0817d7145fa1",
+      "type": "library",
+      "name": "MbedTLS_jll",
+      "version": "2.28.6+0",
+      "purl": "pkg:julia/MbedTLS_jll@2.28.6%2B0?uuid=c8ffd9c3-330d-5841-b78e-0817d7145fa1",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "c8ffd9c3-330d-5841-b78e-0817d7145fa1"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Mmap@1.11.0?uuid=a63ad114-7e13-5084-954f-fe012c677804",
+      "type": "library",
+      "name": "Mmap",
+      "version": "1.11.0",
+      "purl": "pkg:julia/Mmap@1.11.0?uuid=a63ad114-7e13-5084-954f-fe012c677804",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "a63ad114-7e13-5084-954f-fe012c677804"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Mmap@unknown?uuid=a63ad114-7e13-5084-954f-fe012c677804",
+      "type": "library",
+      "name": "Mmap",
+      "version": "unknown",
+      "purl": "pkg:julia/Mmap@unknown?uuid=a63ad114-7e13-5084-954f-fe012c677804",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "a63ad114-7e13-5084-954f-fe012c677804"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/MozillaCACerts_jll@2023.12.12?uuid=14a3606d-f60d-562e-9121-12d972cd8159",
+      "type": "library",
+      "name": "MozillaCACerts_jll",
+      "version": "2023.12.12",
+      "purl": "pkg:julia/MozillaCACerts_jll@2023.12.12?uuid=14a3606d-f60d-562e-9121-12d972cd8159",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "14a3606d-f60d-562e-9121-12d972cd8159"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/NetworkOptions@1.2.0?uuid=ca575930-c2e3-43a9-ace4-1e988b2c1908",
+      "type": "library",
+      "name": "NetworkOptions",
+      "version": "1.2.0",
+      "purl": "pkg:julia/NetworkOptions@1.2.0?uuid=ca575930-c2e3-43a9-ace4-1e988b2c1908",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "ca575930-c2e3-43a9-ace4-1e988b2c1908"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/OpenSSL_jll@3.0.15%2B1?uuid=458c3c95-2e84-50aa-8efc-19380b2a3a95",
+      "type": "library",
+      "name": "OpenSSL_jll",
+      "version": "3.0.15+1",
+      "purl": "pkg:julia/OpenSSL_jll@3.0.15%2B1?uuid=458c3c95-2e84-50aa-8efc-19380b2a3a95",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "458c3c95-2e84-50aa-8efc-19380b2a3a95"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/PCRE2_jll@10.42.0%2B1?uuid=efcefdf7-47ab-520b-bdef-62a2eaa19f15",
+      "type": "library",
+      "name": "PCRE2_jll",
+      "version": "10.42.0+1",
+      "purl": "pkg:julia/PCRE2_jll@10.42.0%2B1?uuid=efcefdf7-47ab-520b-bdef-62a2eaa19f15",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "efcefdf7-47ab-520b-bdef-62a2eaa19f15"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Parsers@1.0.2?uuid=69de0a69-1ddd-5017-9359-2bf0b02dc9f0",
+      "type": "library",
+      "name": "Parsers",
+      "version": "1.0.2",
+      "purl": "pkg:julia/Parsers@1.0.2?uuid=69de0a69-1ddd-5017-9359-2bf0b02dc9f0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "69de0a69-1ddd-5017-9359-2bf0b02dc9f0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Parsers@2.8.1?uuid=69de0a69-1ddd-5017-9359-2bf0b02dc9f0",
+      "type": "library",
+      "name": "Parsers",
+      "version": "2.8.1",
+      "purl": "pkg:julia/Parsers@2.8.1?uuid=69de0a69-1ddd-5017-9359-2bf0b02dc9f0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "69de0a69-1ddd-5017-9359-2bf0b02dc9f0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Pkg@1.11.0?uuid=44cfe95a-1eb2-52ea-b672-e2afdf69b78f",
+      "type": "library",
+      "name": "Pkg",
+      "version": "1.11.0",
+      "purl": "pkg:julia/Pkg@1.11.0?uuid=44cfe95a-1eb2-52ea-b672-e2afdf69b78f",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Pkg@unknown?uuid=44cfe95a-1eb2-52ea-b672-e2afdf69b78f",
+      "type": "library",
+      "name": "Pkg",
+      "version": "unknown",
+      "purl": "pkg:julia/Pkg@unknown?uuid=44cfe95a-1eb2-52ea-b672-e2afdf69b78f",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/PrecompileTools@1.2.1?uuid=aea7be01-6a6a-4083-8856-8a6e6704d82a",
+      "type": "library",
+      "name": "PrecompileTools",
+      "version": "1.2.1",
+      "purl": "pkg:julia/PrecompileTools@1.2.1?uuid=aea7be01-6a6a-4083-8856-8a6e6704d82a",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "aea7be01-6a6a-4083-8856-8a6e6704d82a"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Preferences@1.4.3?uuid=21216c6a-2e73-6563-6e65-726566657250",
+      "type": "library",
+      "name": "Preferences",
+      "version": "1.4.3",
+      "purl": "pkg:julia/Preferences@1.4.3?uuid=21216c6a-2e73-6563-6e65-726566657250",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "21216c6a-2e73-6563-6e65-726566657250"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Printf@1.11.0?uuid=de0858da-6303-5e67-8744-51eddeeeb8d7",
+      "type": "library",
+      "name": "Printf",
+      "version": "1.11.0",
+      "purl": "pkg:julia/Printf@1.11.0?uuid=de0858da-6303-5e67-8744-51eddeeeb8d7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "de0858da-6303-5e67-8744-51eddeeeb8d7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Printf@unknown?uuid=de0858da-6303-5e67-8744-51eddeeeb8d7",
+      "type": "library",
+      "name": "Printf",
+      "version": "unknown",
+      "purl": "pkg:julia/Printf@unknown?uuid=de0858da-6303-5e67-8744-51eddeeeb8d7",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "de0858da-6303-5e67-8744-51eddeeeb8d7"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/REPL@1.11.0?uuid=3fa0cd96-eef1-5676-8a61-b3b8758bbffb",
+      "type": "library",
+      "name": "REPL",
+      "version": "1.11.0",
+      "purl": "pkg:julia/REPL@1.11.0?uuid=3fa0cd96-eef1-5676-8a61-b3b8758bbffb",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "3fa0cd96-eef1-5676-8a61-b3b8758bbffb"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/REPL@unknown?uuid=3fa0cd96-eef1-5676-8a61-b3b8758bbffb",
+      "type": "library",
+      "name": "REPL",
+      "version": "unknown",
+      "purl": "pkg:julia/REPL@unknown?uuid=3fa0cd96-eef1-5676-8a61-b3b8758bbffb",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "3fa0cd96-eef1-5676-8a61-b3b8758bbffb"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Random@1.11.0?uuid=9a3f8284-a2c9-5f02-9a11-845980a1fd5c",
+      "type": "library",
+      "name": "Random",
+      "version": "1.11.0",
+      "purl": "pkg:julia/Random@1.11.0?uuid=9a3f8284-a2c9-5f02-9a11-845980a1fd5c",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Random@unknown?uuid=9a3f8284-a2c9-5f02-9a11-845980a1fd5c",
+      "type": "library",
+      "name": "Random",
+      "version": "unknown",
+      "purl": "pkg:julia/Random@unknown?uuid=9a3f8284-a2c9-5f02-9a11-845980a1fd5c",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/RegistryInstances@0.1.0?uuid=2792f1a3-b283-48e8-9a74-f99dce5104f3",
+      "type": "library",
+      "name": "RegistryInstances",
+      "version": "0.1.0",
+      "purl": "pkg:julia/RegistryInstances@0.1.0?uuid=2792f1a3-b283-48e8-9a74-f99dce5104f3",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "2792f1a3-b283-48e8-9a74-f99dce5104f3"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/SHA@0.7.0?uuid=ea8e919c-243c-51af-8825-aaa63cd721ce",
+      "type": "library",
+      "name": "SHA",
+      "version": "0.7.0",
+      "purl": "pkg:julia/SHA@0.7.0?uuid=ea8e919c-243c-51af-8825-aaa63cd721ce",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "ea8e919c-243c-51af-8825-aaa63cd721ce"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/SHA@unknown?uuid=ea8e919c-243c-51af-8825-aaa63cd721ce",
+      "type": "library",
+      "name": "SHA",
+      "version": "unknown",
+      "purl": "pkg:julia/SHA@unknown?uuid=ea8e919c-243c-51af-8825-aaa63cd721ce",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "ea8e919c-243c-51af-8825-aaa63cd721ce"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Serialization@1.11.0?uuid=9e88b42a-f829-5b0c-bbe9-9e923198166b",
+      "type": "library",
+      "name": "Serialization",
+      "version": "1.11.0",
+      "purl": "pkg:julia/Serialization@1.11.0?uuid=9e88b42a-f829-5b0c-bbe9-9e923198166b",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "9e88b42a-f829-5b0c-bbe9-9e923198166b"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Serialization@unknown?uuid=9e88b42a-f829-5b0c-bbe9-9e923198166b",
+      "type": "library",
+      "name": "Serialization",
+      "version": "unknown",
+      "purl": "pkg:julia/Serialization@unknown?uuid=9e88b42a-f829-5b0c-bbe9-9e923198166b",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "9e88b42a-f829-5b0c-bbe9-9e923198166b"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Sockets@1.11.0?uuid=6462fe0b-24de-5631-8697-dd941f90decc",
+      "type": "library",
+      "name": "Sockets",
+      "version": "1.11.0",
+      "purl": "pkg:julia/Sockets@1.11.0?uuid=6462fe0b-24de-5631-8697-dd941f90decc",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "6462fe0b-24de-5631-8697-dd941f90decc"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Sockets@unknown?uuid=6462fe0b-24de-5631-8697-dd941f90decc",
+      "type": "library",
+      "name": "Sockets",
+      "version": "unknown",
+      "purl": "pkg:julia/Sockets@unknown?uuid=6462fe0b-24de-5631-8697-dd941f90decc",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "6462fe0b-24de-5631-8697-dd941f90decc"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Stdl@1.10.4?uuid=00000000-0000-0000-0000-00000000000e",
+      "type": "library",
+      "name": "Stdl",
+      "version": "1.10.4",
+      "purl": "pkg:julia/Stdl@1.10.4?uuid=00000000-0000-0000-0000-00000000000e",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "00000000-0000-0000-0000-00000000000e"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/StyledStrings@1.11.0?uuid=f489334b-da3d-4c2e-b8f0-e476e12c162b",
+      "type": "library",
+      "name": "StyledStrings",
+      "version": "1.11.0",
+      "purl": "pkg:julia/StyledStrings@1.11.0?uuid=f489334b-da3d-4c2e-b8f0-e476e12c162b",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "f489334b-da3d-4c2e-b8f0-e476e12c162b"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/TOML@1.0.3?uuid=fa267f1f-6049-4f14-aa54-33bafae1ed76",
+      "type": "library",
+      "name": "TOML",
+      "version": "1.0.3",
+      "purl": "pkg:julia/TOML@1.0.3?uuid=fa267f1f-6049-4f14-aa54-33bafae1ed76",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "fa267f1f-6049-4f14-aa54-33bafae1ed76"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Tar@1.10.0?uuid=a4e569a6-e804-4fa4-b0f3-eef7a1d5b13e",
+      "type": "library",
+      "name": "Tar",
+      "version": "1.10.0",
+      "purl": "pkg:julia/Tar@1.10.0?uuid=a4e569a6-e804-4fa4-b0f3-eef7a1d5b13e",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "a4e569a6-e804-4fa4-b0f3-eef7a1d5b13e"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Test@1.11.0?uuid=8dfed614-e22c-5e08-85e1-65c5234f0b40",
+      "type": "library",
+      "name": "Test",
+      "version": "1.11.0",
+      "purl": "pkg:julia/Test@1.11.0?uuid=8dfed614-e22c-5e08-85e1-65c5234f0b40",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Test@unknown?uuid=8dfed614-e22c-5e08-85e1-65c5234f0b40",
+      "type": "library",
+      "name": "Test",
+      "version": "unknown",
+      "purl": "pkg:julia/Test@unknown?uuid=8dfed614-e22c-5e08-85e1-65c5234f0b40",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/TranscodingStreams@0.11.3?uuid=3bb67fe8-82b1-5028-8e26-92a6c54297fa",
+      "type": "library",
+      "name": "TranscodingStreams",
+      "version": "0.11.3",
+      "purl": "pkg:julia/TranscodingStreams@0.11.3?uuid=3bb67fe8-82b1-5028-8e26-92a6c54297fa",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "3bb67fe8-82b1-5028-8e26-92a6c54297fa"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/UUIDs@1.11.0?uuid=cf7118a7-6976-5b1a-9a39-7adc72f591a4",
+      "type": "library",
+      "name": "UUIDs",
+      "version": "1.11.0",
+      "purl": "pkg:julia/UUIDs@1.11.0?uuid=cf7118a7-6976-5b1a-9a39-7adc72f591a4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/UUIDs@unknown?uuid=cf7118a7-6976-5b1a-9a39-7adc72f591a4",
+      "type": "library",
+      "name": "UUIDs",
+      "version": "unknown",
+      "purl": "pkg:julia/UUIDs@unknown?uuid=cf7118a7-6976-5b1a-9a39-7adc72f591a4",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Unicode@1.11.0?uuid=4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5",
+      "type": "library",
+      "name": "Unicode",
+      "version": "1.11.0",
+      "purl": "pkg:julia/Unicode@1.11.0?uuid=4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Unicode@unknown?uuid=4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5",
+      "type": "library",
+      "name": "Unicode",
+      "version": "unknown",
+      "purl": "pkg:julia/Unicode@unknown?uuid=4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/Zlib_jll@1.2.13%2B1?uuid=83775a58-1f1d-513f-b197-d71354ab007a",
+      "type": "library",
+      "name": "Zlib_jll",
+      "version": "1.2.13+1",
+      "purl": "pkg:julia/Zlib_jll@1.2.13%2B1?uuid=83775a58-1f1d-513f-b197-d71354ab007a",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "83775a58-1f1d-513f-b197-d71354ab007a"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/nghttp2_jll@1.59.0%2B0?uuid=8e850ede-7688-5339-a07c-302acd2aaf8d",
+      "type": "library",
+      "name": "nghttp2_jll",
+      "version": "1.59.0+0",
+      "purl": "pkg:julia/nghttp2_jll@1.59.0%2B0?uuid=8e850ede-7688-5339-a07c-302acd2aaf8d",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "8e850ede-7688-5339-a07c-302acd2aaf8d"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:julia/p7zip_jll@17.4.0%2B2?uuid=3f19e933-33d8-53b3-aaab-bd5110c3b7a0",
+      "type": "library",
+      "name": "p7zip_jll",
+      "version": "17.4.0+2",
+      "purl": "pkg:julia/p7zip_jll@17.4.0%2B2?uuid=3f19e933-33d8-53b3-aaab-bd5110c3b7a0",
+      "properties": [
+        {
+          "name": "aquasecurity:trivy:PkgID",
+          "value": "3f19e933-33d8-53b3-aaab-bd5110c3b7a0"
+        },
+        {
+          "name": "aquasecurity:trivy:PkgType",
+          "value": "julia"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "089f945c-5d27-4f2f-9168-323b78f1854d",
+      "dependsOn": [
+        "pkg:julia/Alpha@1.2.3?uuid=00000000-0000-0000-0000-00000000000a"
+      ]
+    },
+    {
+      "ref": "469d452b-7b60-4d92-a2dc-80b000e38819",
+      "dependsOn": [
+        "pkg:julia/Documenter@1.8.0?uuid=e30172f5-a6a5-5a46-863b-614d45cd2de4"
+      ]
+    },
+    {
+      "ref": "4d8c405f-a92f-458d-a029-77701fc53fe6",
+      "dependsOn": [
+        "089f945c-5d27-4f2f-9168-323b78f1854d",
+        "469d452b-7b60-4d92-a2dc-80b000e38819",
+        "ea066259-8182-42d6-a414-1a22fda95221",
+        "pkg:conda/openssl@3.1.4",
+        "pkg:conda/requests@2.31.0",
+        "pkg:conda/trail@1.0"
+      ]
+    },
+    {
+      "ref": "ea066259-8182-42d6-a414-1a22fda95221",
+      "dependsOn": [
+        "pkg:julia/Documenter@0.24.11?uuid=e30172f5-a6a5-5a46-863b-614d45cd2de4",
+        "pkg:julia/DocumenterLaTeX@0.2.0?uuid=cd674d7a-5f81-5cf3-af33-235ef1834b99"
+      ]
+    },
+    {
+      "ref": "pkg:conda/openssl@3.1.4",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conda/requests@2.31.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:conda/trail@1.0",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:julia/ANSIColoredPrinters@0.0.1?uuid=a4c015fc-c6ff-483c-b24f-f7ea428134e9",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:julia/AbstractTrees@0.4.5?uuid=1520ce14-60c1-5f80-bbc7-55ef81b5835c",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:julia/Alpha@1.2.3?uuid=00000000-0000-0000-0000-00000000000a",
+      "dependsOn": [
+        "pkg:julia/Beta@0.5.0%2B1?uuid=00000000-0000-0000-0000-00000000000b",
+        "pkg:julia/Stdl@1.10.4?uuid=00000000-0000-0000-0000-00000000000e"
+      ]
+    },
+    {
+      "ref": "pkg:julia/ArgTools@1.1.2?uuid=0dad84c5-d112-42e6-8d28-ef12dabb789f",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:julia/Artifacts@1.11.0?uuid=56f22d72-fd6d-98f1-02f0-08ddc0907c33",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:julia/Base64@1.11.0?uuid=2a0f44e3-6c83-55bd-87e4-b1978d98bd5f",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:julia/Base64@unknown?uuid=2a0f44e3-6c83-55bd-87e4-b1978d98bd5f",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:julia/Beta@0.5.0%2B1?uuid=00000000-0000-0000-0000-00000000000b",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:julia/CodecZlib@0.7.6?uuid=944b1d66-785c-5afd-91f1-9de20f533193",
+      "dependsOn": [
+        "pkg:julia/TranscodingStreams@0.11.3?uuid=3bb67fe8-82b1-5028-8e26-92a6c54297fa",
+        "pkg:julia/Zlib_jll@1.2.13%2B1?uuid=83775a58-1f1d-513f-b197-d71354ab007a"
+      ]
+    },
+    {
+      "ref": "pkg:julia/Dates@1.11.0?uuid=ade2ca70-3891-5945-98fb-dc099432e06a",
+      "dependsOn": [
+        "pkg:julia/Printf@1.11.0?uuid=de0858da-6303-5e67-8744-51eddeeeb8d7"
+      ]
+    },
+    {
+      "ref": "pkg:julia/Dates@unknown?uuid=ade2ca70-3891-5945-98fb-dc099432e06a",
+      "dependsOn": [
+        "pkg:julia/Printf@unknown?uuid=de0858da-6303-5e67-8744-51eddeeeb8d7"
+      ]
+    },
+    {
+      "ref": "pkg:julia/Distributed@unknown?uuid=8ba89e20-285c-5b6f-9357-94700520ee1b",
+      "dependsOn": [
+        "pkg:julia/Random@unknown?uuid=9a3f8284-a2c9-5f02-9a11-845980a1fd5c",
+        "pkg:julia/Serialization@unknown?uuid=9e88b42a-f829-5b0c-bbe9-9e923198166b",
+        "pkg:julia/Sockets@unknown?uuid=6462fe0b-24de-5631-8697-dd941f90decc"
+      ]
+    },
+    {
+      "ref": "pkg:julia/DocStringExtensions@0.8.1?uuid=ffbed154-4ef7-542d-bbb7-c09d3a79fcae",
+      "dependsOn": [
+        "pkg:julia/LibGit2@unknown?uuid=76f85450-5226-5b5a-8eaa-529ad045b433",
+        "pkg:julia/Markdown@unknown?uuid=d6f4376e-aef5-505a-96c1-9c027394607a",
+        "pkg:julia/Pkg@unknown?uuid=44cfe95a-1eb2-52ea-b672-e2afdf69b78f",
+        "pkg:julia/Test@unknown?uuid=8dfed614-e22c-5e08-85e1-65c5234f0b40"
+      ]
+    },
+    {
+      "ref": "pkg:julia/DocStringExtensions@0.9.3?uuid=ffbed154-4ef7-542d-bbb7-c09d3a79fcae",
+      "dependsOn": [
+        "pkg:julia/LibGit2@1.11.0?uuid=76f85450-5226-5b5a-8eaa-529ad045b433"
+      ]
+    },
+    {
+      "ref": "pkg:julia/Documenter@0.24.11?uuid=e30172f5-a6a5-5a46-863b-614d45cd2de4",
+      "dependsOn": [
+        "pkg:julia/Base64@unknown?uuid=2a0f44e3-6c83-55bd-87e4-b1978d98bd5f",
+        "pkg:julia/Dates@unknown?uuid=ade2ca70-3891-5945-98fb-dc099432e06a",
+        "pkg:julia/DocStringExtensions@0.8.1?uuid=ffbed154-4ef7-542d-bbb7-c09d3a79fcae",
+        "pkg:julia/InteractiveUtils@unknown?uuid=b77e0a4c-d291-57a0-90e8-8db25a27a240",
+        "pkg:julia/JSON@0.21.0?uuid=682c06a0-de6a-54ab-a142-c8b1cf79cde6",
+        "pkg:julia/LibGit2@unknown?uuid=76f85450-5226-5b5a-8eaa-529ad045b433",
+        "pkg:julia/Logging@unknown?uuid=56ddb016-857b-54e1-b83d-db4d58db5568",
+        "pkg:julia/Markdown@unknown?uuid=d6f4376e-aef5-505a-96c1-9c027394607a",
+        "pkg:julia/REPL@unknown?uuid=3fa0cd96-eef1-5676-8a61-b3b8758bbffb",
+        "pkg:julia/Test@unknown?uuid=8dfed614-e22c-5e08-85e1-65c5234f0b40",
+        "pkg:julia/Unicode@unknown?uuid=4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
+      ]
+    },
+    {
+      "ref": "pkg:julia/Documenter@1.8.0?uuid=e30172f5-a6a5-5a46-863b-614d45cd2de4",
+      "dependsOn": [
+        "pkg:julia/ANSIColoredPrinters@0.0.1?uuid=a4c015fc-c6ff-483c-b24f-f7ea428134e9",
+        "pkg:julia/AbstractTrees@0.4.5?uuid=1520ce14-60c1-5f80-bbc7-55ef81b5835c",
+        "pkg:julia/Base64@1.11.0?uuid=2a0f44e3-6c83-55bd-87e4-b1978d98bd5f",
+        "pkg:julia/CodecZlib@0.7.6?uuid=944b1d66-785c-5afd-91f1-9de20f533193",
+        "pkg:julia/Dates@1.11.0?uuid=ade2ca70-3891-5945-98fb-dc099432e06a",
+        "pkg:julia/DocStringExtensions@0.9.3?uuid=ffbed154-4ef7-542d-bbb7-c09d3a79fcae",
+        "pkg:julia/Downloads@1.6.0?uuid=f43a241f-c20a-4ad4-852c-f6b1247861c6",
+        "pkg:julia/Git@1.3.1?uuid=d7ba0133-e1db-5d97-8f8c-041e4b3a1eb2",
+        "pkg:julia/IOCapture@0.2.5?uuid=b5f81e59-6552-4d32-b1f0-c071b021bf89",
+        "pkg:julia/InteractiveUtils@1.11.0?uuid=b77e0a4c-d291-57a0-90e8-8db25a27a240",
+        "pkg:julia/JSON@0.21.4?uuid=682c06a0-de6a-54ab-a142-c8b1cf79cde6",
+        "pkg:julia/LibGit2@1.11.0?uuid=76f85450-5226-5b5a-8eaa-529ad045b433",
+        "pkg:julia/Logging@1.11.0?uuid=56ddb016-857b-54e1-b83d-db4d58db5568",
+        "pkg:julia/Markdown@1.11.0?uuid=d6f4376e-aef5-505a-96c1-9c027394607a",
+        "pkg:julia/MarkdownAST@0.1.2?uuid=d0879d2d-cac2-40c8-9cee-1863dc0c7391",
+        "pkg:julia/Pkg@1.11.0?uuid=44cfe95a-1eb2-52ea-b672-e2afdf69b78f",
+        "pkg:julia/PrecompileTools@1.2.1?uuid=aea7be01-6a6a-4083-8856-8a6e6704d82a",
+        "pkg:julia/REPL@1.11.0?uuid=3fa0cd96-eef1-5676-8a61-b3b8758bbffb",
+        "pkg:julia/RegistryInstances@0.1.0?uuid=2792f1a3-b283-48e8-9a74-f99dce5104f3",
+        "pkg:julia/SHA@0.7.0?uuid=ea8e919c-243c-51af-8825-aaa63cd721ce",
+        "pkg:julia/TOML@1.0.3?uuid=fa267f1f-6049-4f14-aa54-33bafae1ed76",
+        "pkg:julia/Test@1.11.0?uuid=8dfed614-e22c-5e08-85e1-65c5234f0b40",
+        "pkg:julia/Unicode@1.11.0?uuid=4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
+      ]
+    },
+    {
+      "ref": "pkg:julia/DocumenterLaTeX@0.2.0?uuid=cd674d7a-5f81-5cf3-af33-235ef1834b99",
+      "dependsOn": [
+        "pkg:julia/Documenter@0.24.11?uuid=e30172f5-a6a5-5a46-863b-614d45cd2de4",
+        "pkg:julia/Test@unknown?uuid=8dfed614-e22c-5e08-85e1-65c5234f0b40"
+      ]
+    },
+    {
+      "ref": "pkg:julia/Downloads@1.6.0?uuid=f43a241f-c20a-4ad4-852c-f6b1247861c6",
+      "dependsOn": [
+        "pkg:julia/ArgTools@1.1.2?uuid=0dad84c5-d112-42e6-8d28-ef12dabb789f",
+        "pkg:julia/FileWatching@1.11.0?uuid=7b1f6079-737a-58dc-b8bc-7a2ca5c1b5ee",
+        "pkg:julia/LibCURL@0.6.4?uuid=b27032c2-a3e7-50c8-80cd-2d36dbcbfd21",
+        "pkg:julia/NetworkOptions@1.2.0?uuid=ca575930-c2e3-43a9-ace4-1e988b2c1908"
+      ]
+    },
+    {
+      "ref": "pkg:julia/Expat_jll@2.6.2%2B0?uuid=2e619515-83b5-522b-bb60-26c02a35a201",
+      "dependsOn": [
+        "pkg:julia/Artifacts@1.11.0?uuid=56f22d72-fd6d-98f1-02f0-08ddc0907c33",
+        "pkg:julia/JLLWrappers@1.6.1?uuid=692b3bcd-3c85-4b1f-b108-f13ce0eb3210",
+        "pkg:julia/Libdl@1.11.0?uuid=8f399da3-3557-5675-b5ff-fb832c97cbdb"
+      ]
+    },
+    {
+      "ref": "pkg:julia/FileWatching@1.11.0?uuid=7b1f6079-737a-58dc-b8bc-7a2ca5c1b5ee",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:julia/Git@1.3.1?uuid=d7ba0133-e1db-5d97-8f8c-041e4b3a1eb2",
+      "dependsOn": [
+        "pkg:julia/Git_jll@2.46.2%2B0?uuid=f8c6e375-362e-5223-8a59-34ff63f689eb"
+      ]
+    },
+    {
+      "ref": "pkg:julia/Git_jll@2.46.2%2B0?uuid=f8c6e375-362e-5223-8a59-34ff63f689eb",
+      "dependsOn": [
+        "pkg:julia/Artifacts@1.11.0?uuid=56f22d72-fd6d-98f1-02f0-08ddc0907c33",
+        "pkg:julia/Expat_jll@2.6.2%2B0?uuid=2e619515-83b5-522b-bb60-26c02a35a201",
+        "pkg:julia/JLLWrappers@1.6.1?uuid=692b3bcd-3c85-4b1f-b108-f13ce0eb3210",
+        "pkg:julia/LibCURL_jll@8.6.0%2B0?uuid=deac9b47-8bc7-5906-a0fe-35ac56dc84c0",
+        "pkg:julia/Libdl@1.11.0?uuid=8f399da3-3557-5675-b5ff-fb832c97cbdb",
+        "pkg:julia/Libiconv_jll@1.17.0%2B1?uuid=94ce4f54-9a6c-5748-9c1c-f9c7231a4531",
+        "pkg:julia/OpenSSL_jll@3.0.15%2B1?uuid=458c3c95-2e84-50aa-8efc-19380b2a3a95",
+        "pkg:julia/PCRE2_jll@10.42.0%2B1?uuid=efcefdf7-47ab-520b-bdef-62a2eaa19f15",
+        "pkg:julia/Zlib_jll@1.2.13%2B1?uuid=83775a58-1f1d-513f-b197-d71354ab007a"
+      ]
+    },
+    {
+      "ref": "pkg:julia/IOCapture@0.2.5?uuid=b5f81e59-6552-4d32-b1f0-c071b021bf89",
+      "dependsOn": [
+        "pkg:julia/Logging@1.11.0?uuid=56ddb016-857b-54e1-b83d-db4d58db5568",
+        "pkg:julia/Random@1.11.0?uuid=9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+      ]
+    },
+    {
+      "ref": "pkg:julia/InteractiveUtils@1.11.0?uuid=b77e0a4c-d291-57a0-90e8-8db25a27a240",
+      "dependsOn": [
+        "pkg:julia/Markdown@1.11.0?uuid=d6f4376e-aef5-505a-96c1-9c027394607a"
+      ]
+    },
+    {
+      "ref": "pkg:julia/InteractiveUtils@unknown?uuid=b77e0a4c-d291-57a0-90e8-8db25a27a240",
+      "dependsOn": [
+        "pkg:julia/Markdown@unknown?uuid=d6f4376e-aef5-505a-96c1-9c027394607a"
+      ]
+    },
+    {
+      "ref": "pkg:julia/JLLWrappers@1.6.1?uuid=692b3bcd-3c85-4b1f-b108-f13ce0eb3210",
+      "dependsOn": [
+        "pkg:julia/Artifacts@1.11.0?uuid=56f22d72-fd6d-98f1-02f0-08ddc0907c33",
+        "pkg:julia/Preferences@1.4.3?uuid=21216c6a-2e73-6563-6e65-726566657250"
+      ]
+    },
+    {
+      "ref": "pkg:julia/JSON@0.21.0?uuid=682c06a0-de6a-54ab-a142-c8b1cf79cde6",
+      "dependsOn": [
+        "pkg:julia/Dates@unknown?uuid=ade2ca70-3891-5945-98fb-dc099432e06a",
+        "pkg:julia/Mmap@unknown?uuid=a63ad114-7e13-5084-954f-fe012c677804",
+        "pkg:julia/Parsers@1.0.2?uuid=69de0a69-1ddd-5017-9359-2bf0b02dc9f0",
+        "pkg:julia/Unicode@unknown?uuid=4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
+      ]
+    },
+    {
+      "ref": "pkg:julia/JSON@0.21.4?uuid=682c06a0-de6a-54ab-a142-c8b1cf79cde6",
+      "dependsOn": [
+        "pkg:julia/Dates@1.11.0?uuid=ade2ca70-3891-5945-98fb-dc099432e06a",
+        "pkg:julia/Mmap@1.11.0?uuid=a63ad114-7e13-5084-954f-fe012c677804",
+        "pkg:julia/Parsers@2.8.1?uuid=69de0a69-1ddd-5017-9359-2bf0b02dc9f0",
+        "pkg:julia/Unicode@1.11.0?uuid=4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
+      ]
+    },
+    {
+      "ref": "pkg:julia/LazilyInitializedFields@1.3.0?uuid=0e77f7df-68c5-4e49-93ce-4cd80f5598bf",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:julia/LibCURL@0.6.4?uuid=b27032c2-a3e7-50c8-80cd-2d36dbcbfd21",
+      "dependsOn": [
+        "pkg:julia/LibCURL_jll@8.6.0%2B0?uuid=deac9b47-8bc7-5906-a0fe-35ac56dc84c0",
+        "pkg:julia/MozillaCACerts_jll@2023.12.12?uuid=14a3606d-f60d-562e-9121-12d972cd8159"
+      ]
+    },
+    {
+      "ref": "pkg:julia/LibCURL_jll@8.6.0%2B0?uuid=deac9b47-8bc7-5906-a0fe-35ac56dc84c0",
+      "dependsOn": [
+        "pkg:julia/Artifacts@1.11.0?uuid=56f22d72-fd6d-98f1-02f0-08ddc0907c33",
+        "pkg:julia/LibSSH2_jll@1.11.0%2B1?uuid=29816b5a-b9ab-546f-933c-edad1886dfa8",
+        "pkg:julia/Libdl@1.11.0?uuid=8f399da3-3557-5675-b5ff-fb832c97cbdb",
+        "pkg:julia/MbedTLS_jll@2.28.6%2B0?uuid=c8ffd9c3-330d-5841-b78e-0817d7145fa1",
+        "pkg:julia/Zlib_jll@1.2.13%2B1?uuid=83775a58-1f1d-513f-b197-d71354ab007a",
+        "pkg:julia/nghttp2_jll@1.59.0%2B0?uuid=8e850ede-7688-5339-a07c-302acd2aaf8d"
+      ]
+    },
+    {
+      "ref": "pkg:julia/LibGit2@1.11.0?uuid=76f85450-5226-5b5a-8eaa-529ad045b433",
+      "dependsOn": [
+        "pkg:julia/Base64@1.11.0?uuid=2a0f44e3-6c83-55bd-87e4-b1978d98bd5f",
+        "pkg:julia/LibGit2_jll@1.7.2%2B0?uuid=e37daf67-58a4-590a-8e99-b0245dd2ffc5",
+        "pkg:julia/NetworkOptions@1.2.0?uuid=ca575930-c2e3-43a9-ace4-1e988b2c1908",
+        "pkg:julia/Printf@1.11.0?uuid=de0858da-6303-5e67-8744-51eddeeeb8d7",
+        "pkg:julia/SHA@0.7.0?uuid=ea8e919c-243c-51af-8825-aaa63cd721ce"
+      ]
+    },
+    {
+      "ref": "pkg:julia/LibGit2@unknown?uuid=76f85450-5226-5b5a-8eaa-529ad045b433",
+      "dependsOn": [
+        "pkg:julia/Printf@unknown?uuid=de0858da-6303-5e67-8744-51eddeeeb8d7"
+      ]
+    },
+    {
+      "ref": "pkg:julia/LibGit2_jll@1.7.2%2B0?uuid=e37daf67-58a4-590a-8e99-b0245dd2ffc5",
+      "dependsOn": [
+        "pkg:julia/Artifacts@1.11.0?uuid=56f22d72-fd6d-98f1-02f0-08ddc0907c33",
+        "pkg:julia/LibSSH2_jll@1.11.0%2B1?uuid=29816b5a-b9ab-546f-933c-edad1886dfa8",
+        "pkg:julia/Libdl@1.11.0?uuid=8f399da3-3557-5675-b5ff-fb832c97cbdb",
+        "pkg:julia/MbedTLS_jll@2.28.6%2B0?uuid=c8ffd9c3-330d-5841-b78e-0817d7145fa1"
+      ]
+    },
+    {
+      "ref": "pkg:julia/LibSSH2_jll@1.11.0%2B1?uuid=29816b5a-b9ab-546f-933c-edad1886dfa8",
+      "dependsOn": [
+        "pkg:julia/Artifacts@1.11.0?uuid=56f22d72-fd6d-98f1-02f0-08ddc0907c33",
+        "pkg:julia/Libdl@1.11.0?uuid=8f399da3-3557-5675-b5ff-fb832c97cbdb",
+        "pkg:julia/MbedTLS_jll@2.28.6%2B0?uuid=c8ffd9c3-330d-5841-b78e-0817d7145fa1"
+      ]
+    },
+    {
+      "ref": "pkg:julia/Libdl@1.11.0?uuid=8f399da3-3557-5675-b5ff-fb832c97cbdb",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:julia/Libdl@unknown?uuid=8f399da3-3557-5675-b5ff-fb832c97cbdb",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:julia/Libiconv_jll@1.17.0%2B1?uuid=94ce4f54-9a6c-5748-9c1c-f9c7231a4531",
+      "dependsOn": [
+        "pkg:julia/Artifacts@1.11.0?uuid=56f22d72-fd6d-98f1-02f0-08ddc0907c33",
+        "pkg:julia/JLLWrappers@1.6.1?uuid=692b3bcd-3c85-4b1f-b108-f13ce0eb3210",
+        "pkg:julia/Libdl@1.11.0?uuid=8f399da3-3557-5675-b5ff-fb832c97cbdb"
+      ]
+    },
+    {
+      "ref": "pkg:julia/Logging@1.11.0?uuid=56ddb016-857b-54e1-b83d-db4d58db5568",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:julia/Logging@unknown?uuid=56ddb016-857b-54e1-b83d-db4d58db5568",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:julia/Markdown@1.11.0?uuid=d6f4376e-aef5-505a-96c1-9c027394607a",
+      "dependsOn": [
+        "pkg:julia/Base64@1.11.0?uuid=2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
+      ]
+    },
+    {
+      "ref": "pkg:julia/Markdown@unknown?uuid=d6f4376e-aef5-505a-96c1-9c027394607a",
+      "dependsOn": [
+        "pkg:julia/Base64@unknown?uuid=2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
+      ]
+    },
+    {
+      "ref": "pkg:julia/MarkdownAST@0.1.2?uuid=d0879d2d-cac2-40c8-9cee-1863dc0c7391",
+      "dependsOn": [
+        "pkg:julia/AbstractTrees@0.4.5?uuid=1520ce14-60c1-5f80-bbc7-55ef81b5835c",
+        "pkg:julia/Markdown@1.11.0?uuid=d6f4376e-aef5-505a-96c1-9c027394607a"
+      ]
+    },
+    {
+      "ref": "pkg:julia/MbedTLS_jll@2.28.6%2B0?uuid=c8ffd9c3-330d-5841-b78e-0817d7145fa1",
+      "dependsOn": [
+        "pkg:julia/Artifacts@1.11.0?uuid=56f22d72-fd6d-98f1-02f0-08ddc0907c33",
+        "pkg:julia/Libdl@1.11.0?uuid=8f399da3-3557-5675-b5ff-fb832c97cbdb"
+      ]
+    },
+    {
+      "ref": "pkg:julia/Mmap@1.11.0?uuid=a63ad114-7e13-5084-954f-fe012c677804",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:julia/Mmap@unknown?uuid=a63ad114-7e13-5084-954f-fe012c677804",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:julia/MozillaCACerts_jll@2023.12.12?uuid=14a3606d-f60d-562e-9121-12d972cd8159",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:julia/NetworkOptions@1.2.0?uuid=ca575930-c2e3-43a9-ace4-1e988b2c1908",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:julia/OpenSSL_jll@3.0.15%2B1?uuid=458c3c95-2e84-50aa-8efc-19380b2a3a95",
+      "dependsOn": [
+        "pkg:julia/Artifacts@1.11.0?uuid=56f22d72-fd6d-98f1-02f0-08ddc0907c33",
+        "pkg:julia/JLLWrappers@1.6.1?uuid=692b3bcd-3c85-4b1f-b108-f13ce0eb3210",
+        "pkg:julia/Libdl@1.11.0?uuid=8f399da3-3557-5675-b5ff-fb832c97cbdb"
+      ]
+    },
+    {
+      "ref": "pkg:julia/PCRE2_jll@10.42.0%2B1?uuid=efcefdf7-47ab-520b-bdef-62a2eaa19f15",
+      "dependsOn": [
+        "pkg:julia/Artifacts@1.11.0?uuid=56f22d72-fd6d-98f1-02f0-08ddc0907c33",
+        "pkg:julia/Libdl@1.11.0?uuid=8f399da3-3557-5675-b5ff-fb832c97cbdb"
+      ]
+    },
+    {
+      "ref": "pkg:julia/Parsers@1.0.2?uuid=69de0a69-1ddd-5017-9359-2bf0b02dc9f0",
+      "dependsOn": [
+        "pkg:julia/Dates@unknown?uuid=ade2ca70-3891-5945-98fb-dc099432e06a",
+        "pkg:julia/Test@unknown?uuid=8dfed614-e22c-5e08-85e1-65c5234f0b40"
+      ]
+    },
+    {
+      "ref": "pkg:julia/Parsers@2.8.1?uuid=69de0a69-1ddd-5017-9359-2bf0b02dc9f0",
+      "dependsOn": [
+        "pkg:julia/Dates@1.11.0?uuid=ade2ca70-3891-5945-98fb-dc099432e06a",
+        "pkg:julia/PrecompileTools@1.2.1?uuid=aea7be01-6a6a-4083-8856-8a6e6704d82a",
+        "pkg:julia/UUIDs@1.11.0?uuid=cf7118a7-6976-5b1a-9a39-7adc72f591a4"
+      ]
+    },
+    {
+      "ref": "pkg:julia/Pkg@1.11.0?uuid=44cfe95a-1eb2-52ea-b672-e2afdf69b78f",
+      "dependsOn": [
+        "pkg:julia/Artifacts@1.11.0?uuid=56f22d72-fd6d-98f1-02f0-08ddc0907c33",
+        "pkg:julia/Dates@1.11.0?uuid=ade2ca70-3891-5945-98fb-dc099432e06a",
+        "pkg:julia/Downloads@1.6.0?uuid=f43a241f-c20a-4ad4-852c-f6b1247861c6",
+        "pkg:julia/FileWatching@1.11.0?uuid=7b1f6079-737a-58dc-b8bc-7a2ca5c1b5ee",
+        "pkg:julia/LibGit2@1.11.0?uuid=76f85450-5226-5b5a-8eaa-529ad045b433",
+        "pkg:julia/Libdl@1.11.0?uuid=8f399da3-3557-5675-b5ff-fb832c97cbdb",
+        "pkg:julia/Logging@1.11.0?uuid=56ddb016-857b-54e1-b83d-db4d58db5568",
+        "pkg:julia/Markdown@1.11.0?uuid=d6f4376e-aef5-505a-96c1-9c027394607a",
+        "pkg:julia/Printf@1.11.0?uuid=de0858da-6303-5e67-8744-51eddeeeb8d7",
+        "pkg:julia/Random@1.11.0?uuid=9a3f8284-a2c9-5f02-9a11-845980a1fd5c",
+        "pkg:julia/SHA@0.7.0?uuid=ea8e919c-243c-51af-8825-aaa63cd721ce",
+        "pkg:julia/TOML@1.0.3?uuid=fa267f1f-6049-4f14-aa54-33bafae1ed76",
+        "pkg:julia/Tar@1.10.0?uuid=a4e569a6-e804-4fa4-b0f3-eef7a1d5b13e",
+        "pkg:julia/UUIDs@1.11.0?uuid=cf7118a7-6976-5b1a-9a39-7adc72f591a4",
+        "pkg:julia/p7zip_jll@17.4.0%2B2?uuid=3f19e933-33d8-53b3-aaab-bd5110c3b7a0"
+      ]
+    },
+    {
+      "ref": "pkg:julia/Pkg@unknown?uuid=44cfe95a-1eb2-52ea-b672-e2afdf69b78f",
+      "dependsOn": [
+        "pkg:julia/Dates@unknown?uuid=ade2ca70-3891-5945-98fb-dc099432e06a",
+        "pkg:julia/LibGit2@unknown?uuid=76f85450-5226-5b5a-8eaa-529ad045b433",
+        "pkg:julia/Libdl@unknown?uuid=8f399da3-3557-5675-b5ff-fb832c97cbdb",
+        "pkg:julia/Logging@unknown?uuid=56ddb016-857b-54e1-b83d-db4d58db5568",
+        "pkg:julia/Markdown@unknown?uuid=d6f4376e-aef5-505a-96c1-9c027394607a",
+        "pkg:julia/Printf@unknown?uuid=de0858da-6303-5e67-8744-51eddeeeb8d7",
+        "pkg:julia/REPL@unknown?uuid=3fa0cd96-eef1-5676-8a61-b3b8758bbffb",
+        "pkg:julia/Random@unknown?uuid=9a3f8284-a2c9-5f02-9a11-845980a1fd5c",
+        "pkg:julia/SHA@unknown?uuid=ea8e919c-243c-51af-8825-aaa63cd721ce",
+        "pkg:julia/UUIDs@unknown?uuid=cf7118a7-6976-5b1a-9a39-7adc72f591a4"
+      ]
+    },
+    {
+      "ref": "pkg:julia/PrecompileTools@1.2.1?uuid=aea7be01-6a6a-4083-8856-8a6e6704d82a",
+      "dependsOn": [
+        "pkg:julia/Preferences@1.4.3?uuid=21216c6a-2e73-6563-6e65-726566657250"
+      ]
+    },
+    {
+      "ref": "pkg:julia/Preferences@1.4.3?uuid=21216c6a-2e73-6563-6e65-726566657250",
+      "dependsOn": [
+        "pkg:julia/TOML@1.0.3?uuid=fa267f1f-6049-4f14-aa54-33bafae1ed76"
+      ]
+    },
+    {
+      "ref": "pkg:julia/Printf@1.11.0?uuid=de0858da-6303-5e67-8744-51eddeeeb8d7",
+      "dependsOn": [
+        "pkg:julia/Unicode@1.11.0?uuid=4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
+      ]
+    },
+    {
+      "ref": "pkg:julia/Printf@unknown?uuid=de0858da-6303-5e67-8744-51eddeeeb8d7",
+      "dependsOn": [
+        "pkg:julia/Unicode@unknown?uuid=4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
+      ]
+    },
+    {
+      "ref": "pkg:julia/REPL@1.11.0?uuid=3fa0cd96-eef1-5676-8a61-b3b8758bbffb",
+      "dependsOn": [
+        "pkg:julia/InteractiveUtils@1.11.0?uuid=b77e0a4c-d291-57a0-90e8-8db25a27a240",
+        "pkg:julia/Markdown@1.11.0?uuid=d6f4376e-aef5-505a-96c1-9c027394607a",
+        "pkg:julia/Sockets@1.11.0?uuid=6462fe0b-24de-5631-8697-dd941f90decc",
+        "pkg:julia/StyledStrings@1.11.0?uuid=f489334b-da3d-4c2e-b8f0-e476e12c162b",
+        "pkg:julia/Unicode@1.11.0?uuid=4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
+      ]
+    },
+    {
+      "ref": "pkg:julia/REPL@unknown?uuid=3fa0cd96-eef1-5676-8a61-b3b8758bbffb",
+      "dependsOn": [
+        "pkg:julia/InteractiveUtils@unknown?uuid=b77e0a4c-d291-57a0-90e8-8db25a27a240",
+        "pkg:julia/Markdown@unknown?uuid=d6f4376e-aef5-505a-96c1-9c027394607a",
+        "pkg:julia/Sockets@unknown?uuid=6462fe0b-24de-5631-8697-dd941f90decc"
+      ]
+    },
+    {
+      "ref": "pkg:julia/Random@1.11.0?uuid=9a3f8284-a2c9-5f02-9a11-845980a1fd5c",
+      "dependsOn": [
+        "pkg:julia/SHA@0.7.0?uuid=ea8e919c-243c-51af-8825-aaa63cd721ce"
+      ]
+    },
+    {
+      "ref": "pkg:julia/Random@unknown?uuid=9a3f8284-a2c9-5f02-9a11-845980a1fd5c",
+      "dependsOn": [
+        "pkg:julia/Serialization@unknown?uuid=9e88b42a-f829-5b0c-bbe9-9e923198166b"
+      ]
+    },
+    {
+      "ref": "pkg:julia/RegistryInstances@0.1.0?uuid=2792f1a3-b283-48e8-9a74-f99dce5104f3",
+      "dependsOn": [
+        "pkg:julia/LazilyInitializedFields@1.3.0?uuid=0e77f7df-68c5-4e49-93ce-4cd80f5598bf",
+        "pkg:julia/Pkg@1.11.0?uuid=44cfe95a-1eb2-52ea-b672-e2afdf69b78f",
+        "pkg:julia/TOML@1.0.3?uuid=fa267f1f-6049-4f14-aa54-33bafae1ed76",
+        "pkg:julia/Tar@1.10.0?uuid=a4e569a6-e804-4fa4-b0f3-eef7a1d5b13e"
+      ]
+    },
+    {
+      "ref": "pkg:julia/SHA@0.7.0?uuid=ea8e919c-243c-51af-8825-aaa63cd721ce",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:julia/SHA@unknown?uuid=ea8e919c-243c-51af-8825-aaa63cd721ce",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:julia/Serialization@1.11.0?uuid=9e88b42a-f829-5b0c-bbe9-9e923198166b",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:julia/Serialization@unknown?uuid=9e88b42a-f829-5b0c-bbe9-9e923198166b",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:julia/Sockets@1.11.0?uuid=6462fe0b-24de-5631-8697-dd941f90decc",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:julia/Sockets@unknown?uuid=6462fe0b-24de-5631-8697-dd941f90decc",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:julia/Stdl@1.10.4?uuid=00000000-0000-0000-0000-00000000000e",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:julia/StyledStrings@1.11.0?uuid=f489334b-da3d-4c2e-b8f0-e476e12c162b",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:julia/TOML@1.0.3?uuid=fa267f1f-6049-4f14-aa54-33bafae1ed76",
+      "dependsOn": [
+        "pkg:julia/Dates@1.11.0?uuid=ade2ca70-3891-5945-98fb-dc099432e06a"
+      ]
+    },
+    {
+      "ref": "pkg:julia/Tar@1.10.0?uuid=a4e569a6-e804-4fa4-b0f3-eef7a1d5b13e",
+      "dependsOn": [
+        "pkg:julia/ArgTools@1.1.2?uuid=0dad84c5-d112-42e6-8d28-ef12dabb789f",
+        "pkg:julia/SHA@0.7.0?uuid=ea8e919c-243c-51af-8825-aaa63cd721ce"
+      ]
+    },
+    {
+      "ref": "pkg:julia/Test@1.11.0?uuid=8dfed614-e22c-5e08-85e1-65c5234f0b40",
+      "dependsOn": [
+        "pkg:julia/InteractiveUtils@1.11.0?uuid=b77e0a4c-d291-57a0-90e8-8db25a27a240",
+        "pkg:julia/Logging@1.11.0?uuid=56ddb016-857b-54e1-b83d-db4d58db5568",
+        "pkg:julia/Random@1.11.0?uuid=9a3f8284-a2c9-5f02-9a11-845980a1fd5c",
+        "pkg:julia/Serialization@1.11.0?uuid=9e88b42a-f829-5b0c-bbe9-9e923198166b"
+      ]
+    },
+    {
+      "ref": "pkg:julia/Test@unknown?uuid=8dfed614-e22c-5e08-85e1-65c5234f0b40",
+      "dependsOn": [
+        "pkg:julia/Distributed@unknown?uuid=8ba89e20-285c-5b6f-9357-94700520ee1b",
+        "pkg:julia/InteractiveUtils@unknown?uuid=b77e0a4c-d291-57a0-90e8-8db25a27a240",
+        "pkg:julia/Logging@unknown?uuid=56ddb016-857b-54e1-b83d-db4d58db5568",
+        "pkg:julia/Random@unknown?uuid=9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+      ]
+    },
+    {
+      "ref": "pkg:julia/TranscodingStreams@0.11.3?uuid=3bb67fe8-82b1-5028-8e26-92a6c54297fa",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:julia/UUIDs@1.11.0?uuid=cf7118a7-6976-5b1a-9a39-7adc72f591a4",
+      "dependsOn": [
+        "pkg:julia/Random@1.11.0?uuid=9a3f8284-a2c9-5f02-9a11-845980a1fd5c",
+        "pkg:julia/SHA@0.7.0?uuid=ea8e919c-243c-51af-8825-aaa63cd721ce"
+      ]
+    },
+    {
+      "ref": "pkg:julia/UUIDs@unknown?uuid=cf7118a7-6976-5b1a-9a39-7adc72f591a4",
+      "dependsOn": [
+        "pkg:julia/Random@unknown?uuid=9a3f8284-a2c9-5f02-9a11-845980a1fd5c",
+        "pkg:julia/SHA@unknown?uuid=ea8e919c-243c-51af-8825-aaa63cd721ce"
+      ]
+    },
+    {
+      "ref": "pkg:julia/Unicode@1.11.0?uuid=4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:julia/Unicode@unknown?uuid=4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5",
+      "dependsOn": []
+    },
+    {
+      "ref": "pkg:julia/Zlib_jll@1.2.13%2B1?uuid=83775a58-1f1d-513f-b197-d71354ab007a",
+      "dependsOn": [
+        "pkg:julia/Libdl@1.11.0?uuid=8f399da3-3557-5675-b5ff-fb832c97cbdb"
+      ]
+    },
+    {
+      "ref": "pkg:julia/nghttp2_jll@1.59.0%2B0?uuid=8e850ede-7688-5339-a07c-302acd2aaf8d",
+      "dependsOn": [
+        "pkg:julia/Artifacts@1.11.0?uuid=56f22d72-fd6d-98f1-02f0-08ddc0907c33",
+        "pkg:julia/Libdl@1.11.0?uuid=8f399da3-3557-5675-b5ff-fb832c97cbdb"
+      ]
+    },
+    {
+      "ref": "pkg:julia/p7zip_jll@17.4.0%2B2?uuid=3f19e933-33d8-53b3-aaab-bd5110c3b7a0",
+      "dependsOn": [
+        "pkg:julia/Artifacts@1.11.0?uuid=56f22d72-fd6d-98f1-02f0-08ddc0907c33",
+        "pkg:julia/Libdl@1.11.0?uuid=8f399da3-3557-5675-b5ff-fb832c97cbdb"
+      ]
+    }
+  ],
+  "vulnerabilities": []
+}

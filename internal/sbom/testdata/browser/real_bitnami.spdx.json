@@ -1,0 +1,2872 @@
+{
+  "tool": "cdgate 0.1.0-dev",
+  "block_at": "known_exploited",
+  "decision": "pass",
+  "files": [
+    {
+      "path": "bitnami_nginx.spdx-json.json",
+      "kind": "spdx-json",
+      "ecosystem": "spdx-json",
+      "packages": 17
+    },
+    {
+      "path": "bitnami_nginx.spdx-json.json (operating system)",
+      "kind": "sbom-os-packages",
+      "ecosystem": "Debian:12",
+      "packages": 77
+    }
+  ],
+  "unsupported": [
+    {
+      "path": "(SBOM components)",
+      "kind": "sbom",
+      "packages": 0,
+      "error": "2 SBOM component(s) without a version or a package URL of a supported type were skipped (Trivy cannot match them either)"
+    }
+  ],
+  "truncated": false,
+  "packages": [
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/aymerick/raymond",
+        "version": "v2.0.2+incompatible",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Go",
+        "name": "github.com/aymerick/raymond",
+        "version": "v2.0.2+incompatible",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/jessevdk/go-flags",
+        "version": "v1.6.1",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Go",
+        "name": "github.com/jessevdk/go-flags",
+        "version": "v1.6.1",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/mmikulicic/multierror",
+        "version": "v0.0.0-20170428094957-c1ad6b5ecd26",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Go",
+        "name": "github.com/mmikulicic/multierror",
+        "version": "v0.0.0-20170428094957-c1ad6b5ecd26",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "golang.org/x/sys",
+        "version": "v0.33.0",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Go",
+        "name": "golang.org/x/sys",
+        "version": "v0.33.0",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Bitnami",
+        "name": "libmaxminddb",
+        "version": "1.12.2",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Bitnami",
+        "name": "libmaxminddb",
+        "version": "1.12.2",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Bitnami",
+        "name": "nginx",
+        "version": "1.29.0-0",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Bitnami",
+        "name": "nginx",
+        "version": "1.29.0-0",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Bitnami",
+        "name": "nginx-module-brotli",
+        "version": "0.20231009.0",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Bitnami",
+        "name": "nginx-module-brotli",
+        "version": "0.20231009.0",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Bitnami",
+        "name": "nginx-module-geoip2",
+        "version": "3.4.0",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Bitnami",
+        "name": "nginx-module-geoip2",
+        "version": "3.4.0",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Bitnami",
+        "name": "nginx-module-substitutions-filter",
+        "version": "0.20220124.0",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Bitnami",
+        "name": "nginx-module-substitutions-filter",
+        "version": "0.20220124.0",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Bitnami",
+        "name": "nginx-module-vts",
+        "version": "0.2.4",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Bitnami",
+        "name": "nginx-module-vts",
+        "version": "0.2.4",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Bitnami",
+        "name": "render-template",
+        "version": "1.0.8-1",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Bitnami",
+        "name": "render-template",
+        "version": "1.0.8-1",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "stdlib",
+        "version": "v1.24.5",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Go",
+        "name": "stdlib",
+        "version": "v1.24.5",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "acl",
+        "version": "2.3.1-3",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "libacl1"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "acl",
+        "version": "2.3.1-3",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "adduser",
+        "version": "3.134",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "adduser"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "adduser",
+        "version": "3.134",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "apt",
+        "version": "2.6.1",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "apt",
+          "libapt-pkg6.0"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "apt",
+        "version": "2.6.1",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "attr",
+        "version": "1:2.5.1-4",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "libattr1"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "attr",
+        "version": "1:2.5.1-4",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "audit",
+        "version": "1:3.0.9-1",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "libaudit-common",
+          "libaudit1"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "audit",
+        "version": "1:3.0.9-1",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "base-files",
+        "version": "12.4+deb12u11",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "base-files"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "base-files",
+        "version": "12.4+deb12u11",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "base-passwd",
+        "version": "3.6.1",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "base-passwd"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "base-passwd",
+        "version": "3.6.1",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "bash",
+        "version": "5.2.15-2",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "bash"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "bash",
+        "version": "5.2.15-2",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "bzip2",
+        "version": "1.0.8-5",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "libbz2-1.0"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "bzip2",
+        "version": "1.0.8-5",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "ca-certificates",
+        "version": "20230311+deb12u1",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "ca-certificates"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "ca-certificates",
+        "version": "20230311+deb12u1",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "cdebconf",
+        "version": "0.270",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "libdebconfclient0"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "cdebconf",
+        "version": "0.270",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "coreutils",
+        "version": "9.1-1",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "coreutils"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "coreutils",
+        "version": "9.1-1",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "dash",
+        "version": "0.5.12-2",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "dash"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "dash",
+        "version": "0.5.12-2",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "db5.3",
+        "version": "5.3.28+dfsg2-1",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "libdb5.3"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "db5.3",
+        "version": "5.3.28+dfsg2-1",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "debconf",
+        "version": "1.5.82",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "debconf"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "debconf",
+        "version": "1.5.82",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "debian-archive-keyring",
+        "version": "2023.3+deb12u2",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "debian-archive-keyring"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "debian-archive-keyring",
+        "version": "2023.3+deb12u2",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "debianutils",
+        "version": "5.7-0.5~deb12u1",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "debianutils"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "debianutils",
+        "version": "5.7-0.5~deb12u1",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "diffutils",
+        "version": "1:3.8-4",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "diffutils"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "diffutils",
+        "version": "1:3.8-4",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "dpkg",
+        "version": "1.21.22",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "dpkg"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "dpkg",
+        "version": "1.21.22",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "findutils",
+        "version": "4.9.0-4",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "findutils"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "findutils",
+        "version": "4.9.0-4",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "gcc-12",
+        "version": "12.2.0-14+deb12u1",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "gcc-12-base",
+          "libgcc-s1",
+          "libgomp1",
+          "libstdc++6"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "gcc-12",
+        "version": "12.2.0-14+deb12u1",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "gdbm",
+        "version": "1.23-3",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "libgdbm-compat4",
+          "libgdbm6"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "gdbm",
+        "version": "1.23-3",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "geoip",
+        "version": "1.6.12-10",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "libgeoip1"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "geoip",
+        "version": "1.6.12-10",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "gettext",
+        "version": "0.21-12",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "gettext",
+          "gettext-base"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "gettext",
+        "version": "0.21-12",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "glibc",
+        "version": "2.36-9+deb12u10",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "libc-bin",
+          "libc6"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "glibc",
+        "version": "2.36-9+deb12u10",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "gmp",
+        "version": "2:6.2.1+dfsg1-1.1",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "libgmp10"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "gmp",
+        "version": "2:6.2.1+dfsg1-1.1",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "gnupg2",
+        "version": "2.2.40-1.1",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "gpgv"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "gnupg2",
+        "version": "2.2.40-1.1",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "gnutls28",
+        "version": "3.7.9-2+deb12u5",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "libgnutls30"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "gnutls28",
+        "version": "3.7.9-2+deb12u5",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "grep",
+        "version": "3.8-5",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "grep"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "grep",
+        "version": "3.8-5",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "gzip",
+        "version": "1.12-1",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "gzip"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "gzip",
+        "version": "1.12-1",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "hostname",
+        "version": "3.23+nmu1",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "hostname"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "hostname",
+        "version": "3.23+nmu1",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "icu",
+        "version": "72.1-3+deb12u1",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "libicu72"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "icu",
+        "version": "72.1-3+deb12u1",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "init-system-helpers",
+        "version": "1.65.2",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "init-system-helpers"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "init-system-helpers",
+        "version": "1.65.2",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "insserv",
+        "version": "1.24.0-1",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "insserv"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "insserv",
+        "version": "1.24.0-1",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "libcap-ng",
+        "version": "0.8.3-1",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "libcap-ng0"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "libcap-ng",
+        "version": "0.8.3-1",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "libcap2",
+        "version": "1:2.66-4+deb12u1",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "libcap2"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "libcap2",
+        "version": "1:2.66-4+deb12u1",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "libffi",
+        "version": "3.4.4-1",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "libffi8"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "libffi",
+        "version": "3.4.4-1",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "libfile-find-rule-perl",
+        "version": "0.34-4~deb12u1",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "libfile-find-rule-perl"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "libfile-find-rule-perl",
+        "version": "0.34-4~deb12u1",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "libgcrypt20",
+        "version": "1.10.1-3",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "libgcrypt20"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "libgcrypt20",
+        "version": "1.10.1-3",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "libgpg-error",
+        "version": "1.46-1",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "libgpg-error0"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "libgpg-error",
+        "version": "1.46-1",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "libidn2",
+        "version": "2.3.3-1",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "libidn2-0"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "libidn2",
+        "version": "2.3.3-1",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "libmd",
+        "version": "1.0.4-2",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "libmd0"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "libmd",
+        "version": "1.0.4-2",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "libnumber-compare-perl",
+        "version": "0.03-3",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "libnumber-compare-perl"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "libnumber-compare-perl",
+        "version": "0.03-3",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "libseccomp",
+        "version": "2.5.4-1+deb12u1",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "libseccomp2"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "libseccomp",
+        "version": "2.5.4-1+deb12u1",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "libselinux",
+        "version": "3.4-1",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "libselinux1"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "libselinux",
+        "version": "3.4-1",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "libsemanage",
+        "version": "3.4-1",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "libsemanage-common",
+          "libsemanage2"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "libsemanage",
+        "version": "3.4-1",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "libsepol",
+        "version": "3.4-2.1",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "libsepol2"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "libsepol",
+        "version": "3.4-2.1",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "libtasn1-6",
+        "version": "4.19.0-2+deb12u1",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "libtasn1-6"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "libtasn1-6",
+        "version": "4.19.0-2+deb12u1",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "libtext-glob-perl",
+        "version": "0.11-3",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "libtext-glob-perl"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "libtext-glob-perl",
+        "version": "0.11-3",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "libunistring",
+        "version": "1.0-2",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "libunistring2"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "libunistring",
+        "version": "1.0-2",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "libxcrypt",
+        "version": "1:4.4.33-2",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "libcrypt1"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "libxcrypt",
+        "version": "1:4.4.33-2",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "libxml2",
+        "version": "2.9.14+dfsg-1.3~deb12u2",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "libxml2"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "libxml2",
+        "version": "2.9.14+dfsg-1.3~deb12u2",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "libzstd",
+        "version": "1.5.4+dfsg2-5",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "libzstd1"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "libzstd",
+        "version": "1.5.4+dfsg2-5",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "lsb",
+        "version": "11.6",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "lsb-base"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "lsb",
+        "version": "11.6",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "lz4",
+        "version": "1.9.4-1",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "liblz4-1"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "lz4",
+        "version": "1.9.4-1",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "mawk",
+        "version": "1.3.4.20200120-3.1",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "mawk"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "mawk",
+        "version": "1.3.4.20200120-3.1",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "ncurses",
+        "version": "6.4-4",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "libncursesw6",
+          "libtinfo6",
+          "ncurses-base"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "ncurses",
+        "version": "6.4-4",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "nettle",
+        "version": "3.8.1-2",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "libhogweed6",
+          "libnettle8"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "nettle",
+        "version": "3.8.1-2",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "openssl",
+        "version": "3.0.16-1~deb12u1",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "libssl3",
+          "openssl"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "openssl",
+        "version": "3.0.16-1~deb12u1",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "p11-kit",
+        "version": "0.24.1-2",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "libp11-kit0"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "p11-kit",
+        "version": "0.24.1-2",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "pam",
+        "version": "1.5.2-6+deb12u1",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "libpam-modules",
+          "libpam-modules-bin",
+          "libpam-runtime",
+          "libpam0g"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "pam",
+        "version": "1.5.2-6+deb12u1",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "pcre2",
+        "version": "10.42-1",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "libpcre2-8-0"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "pcre2",
+        "version": "10.42-1",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "pcre3",
+        "version": "2:8.39-15",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "libpcre3"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "pcre3",
+        "version": "2:8.39-15",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "perl",
+        "version": "5.36.0-7+deb12u2",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "libperl5.36",
+          "perl",
+          "perl-base",
+          "perl-modules-5.36"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "perl",
+        "version": "5.36.0-7+deb12u2",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "procps",
+        "version": "2:4.0.2-3",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "libproc2-0",
+          "procps"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "procps",
+        "version": "2:4.0.2-3",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "sed",
+        "version": "4.9-1",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "sed"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "sed",
+        "version": "4.9-1",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "shadow",
+        "version": "1:4.13+dfsg1-1+deb12u1",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "login",
+          "passwd"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "shadow",
+        "version": "1:4.13+dfsg1-1+deb12u1",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "startpar",
+        "version": "0.65-1",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "startpar"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "startpar",
+        "version": "0.65-1",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "systemd",
+        "version": "252.38-1~deb12u1",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "libsystemd0",
+          "libudev1"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "systemd",
+        "version": "252.38-1~deb12u1",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "sysvinit",
+        "version": "3.06-4",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "sysv-rc",
+          "sysvinit-utils"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "sysvinit",
+        "version": "3.06-4",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "tar",
+        "version": "1.34+dfsg-1.2+deb12u1",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "tar"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "tar",
+        "version": "1.34+dfsg-1.2+deb12u1",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "tzdata",
+        "version": "2025b-0+deb12u1",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "tzdata"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "tzdata",
+        "version": "2025b-0+deb12u1",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "usrmerge",
+        "version": "37~deb12u1",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "usrmerge"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "usrmerge",
+        "version": "37~deb12u1",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "util-linux",
+        "version": "2.38.1-5+deb12u3",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "bsdutils",
+          "libblkid1",
+          "libmount1",
+          "libsmartcols1",
+          "libuuid1",
+          "mount",
+          "util-linux",
+          "util-linux-extra"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "util-linux",
+        "version": "2.38.1-5+deb12u3",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "xxhash",
+        "version": "0.8.1-1",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "libxxhash0"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "xxhash",
+        "version": "0.8.1-1",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "xz-utils",
+        "version": "5.4.1-1",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "liblzma5"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "xz-utils",
+        "version": "5.4.1-1",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Debian:12",
+        "name": "zlib",
+        "version": "1:1.2.13.dfsg-1",
+        "source": "bitnami_nginx.spdx-json.json",
+        "direct": false,
+        "binaries": [
+          "zlib1g"
+        ]
+      },
+      "sources": [
+        "bitnami_nginx.spdx-json.json"
+      ],
+      "result": {
+        "ecosystem": "Debian:12",
+        "name": "zlib",
+        "version": "1:1.2.13.dfsg-1",
+        "arch": null,
+        "status": "clean",
+        "findings": [],
+        "findings_total": 0,
+        "findings_truncated": false,
+        "upgrade_to": null,
+        "upgrade_to_all": null,
+        "upgrade_candidates": [],
+        "unfixed": 0,
+        "remove": false,
+        "not_checked_reason": "",
+        "supplier": ""
+      }
+    }
+  ]
+}

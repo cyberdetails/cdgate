@@ -1,0 +1,389 @@
+{
+ "composer-case/composer.lock": {
+  "ecosystem": "Packagist",
+  "error": false,
+  "packages": [
+   {
+    "name": "a/b",
+    "version": "1.0.0",
+    "direct": false
+   }
+  ],
+  "packages_with_dev": [
+   {
+    "name": "a/b",
+    "version": "1.0.0",
+    "direct": false
+   },
+   {
+    "name": "c/d",
+    "version": "2.0.0",
+    "direct": false
+   }
+  ]
+ },
+ "composer-null/composer.lock": {
+  "ecosystem": "Packagist",
+  "error": false,
+  "packages": [],
+  "packages_with_dev": []
+ },
+ "composer-toplevel-null/composer.lock": {
+  "ecosystem": "Packagist",
+  "error": false,
+  "packages": [],
+  "packages_with_dev": []
+ },
+ "composer/composer.lock": {
+  "ecosystem": "Packagist",
+  "error": false,
+  "packages": [
+   {
+    "name": "symfony/http-kernel",
+    "version": "v5.4.0",
+    "direct": false
+   },
+   {
+    "name": "monolog/monolog",
+    "version": "2.9.1",
+    "direct": false
+   }
+  ],
+  "packages_with_dev": [
+   {
+    "name": "symfony/http-kernel",
+    "version": "v5.4.0",
+    "direct": false
+   },
+   {
+    "name": "monolog/monolog",
+    "version": "2.9.1",
+    "direct": false
+   },
+   {
+    "name": "phpunit/phpunit",
+    "version": "9.6.0",
+    "direct": false
+   }
+  ]
+ },
+ "npm-bom/package-lock.json": {
+  "ecosystem": "npm",
+  "error": true,
+  "packages": null,
+  "packages_with_dev": null
+ },
+ "npm-deep-v1/package-lock.json": {
+  "ecosystem": "npm",
+  "error": true,
+  "packages": null,
+  "packages_with_dev": null
+ },
+ "npm-edge/package-lock.json": {
+  "ecosystem": "npm",
+  "error": false,
+  "packages": [
+   {
+    "name": "b",
+    "version": "2.0.0",
+    "direct": false
+   },
+   {
+    "name": "feff",
+    "version": "﻿3.0.0",
+    "direct": false
+   },
+   {
+    "name": "opt",
+    "version": "1.0.0",
+    "direct": true
+   },
+   {
+    "name": "spaced",
+    "version": "2.0.0",
+    "direct": false
+   },
+   {
+    "name": "ççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççç",
+    "version": "1.0.0",
+    "direct": false
+   },
+   {
+    "name": "x",
+    "version": "0.1.0",
+    "direct": false
+   }
+  ],
+  "packages_with_dev": [
+   {
+    "name": "b",
+    "version": "2.0.0",
+    "direct": false
+   },
+   {
+    "name": "feff",
+    "version": "﻿3.0.0",
+    "direct": false
+   },
+   {
+    "name": "opt",
+    "version": "1.0.0",
+    "direct": true
+   },
+   {
+    "name": "spaced",
+    "version": "2.0.0",
+    "direct": false
+   },
+   {
+    "name": "ççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççççç",
+    "version": "1.0.0",
+    "direct": false
+   },
+   {
+    "name": "x",
+    "version": "0.1.0",
+    "direct": false
+   }
+  ]
+ },
+ "npm-lockfile-float/package-lock.json": {
+  "ecosystem": "npm",
+  "error": true,
+  "packages": null,
+  "packages_with_dev": null
+ },
+ "npm-not-object/package-lock.json": {
+  "ecosystem": "npm",
+  "error": true,
+  "packages": null,
+  "packages_with_dev": null
+ },
+ "npm-type-error/package-lock.json": {
+  "ecosystem": "npm",
+  "error": true,
+  "packages": null,
+  "packages_with_dev": null
+ },
+ "npm-v1/package-lock.json": {
+  "ecosystem": "npm",
+  "error": false,
+  "packages": [
+   {
+    "name": "express",
+    "version": "4.17.1",
+    "direct": false
+   },
+   {
+    "name": "debug",
+    "version": "2.6.9",
+    "direct": false
+   },
+   {
+    "name": "ms",
+    "version": "2.0.0",
+    "direct": false
+   },
+   {
+    "name": "ms",
+    "version": "2.1.3",
+    "direct": false
+   }
+  ],
+  "packages_with_dev": [
+   {
+    "name": "express",
+    "version": "4.17.1",
+    "direct": false
+   },
+   {
+    "name": "debug",
+    "version": "2.6.9",
+    "direct": false
+   },
+   {
+    "name": "ms",
+    "version": "2.0.0",
+    "direct": false
+   },
+   {
+    "name": "mocha",
+    "version": "10.0.0",
+    "direct": false
+   },
+   {
+    "name": "debug",
+    "version": "4.3.4",
+    "direct": false
+   },
+   {
+    "name": "ms",
+    "version": "2.1.3",
+    "direct": false
+   }
+  ]
+ },
+ "npm-v3/package-lock.json": {
+  "ecosystem": "npm",
+  "error": false,
+  "packages": [
+   {
+    "name": "@babel/core",
+    "version": "7.22.0",
+    "direct": true
+   },
+   {
+    "name": "semver",
+    "version": "6.3.0",
+    "direct": false
+   },
+   {
+    "name": "lodash",
+    "version": "3.10.1",
+    "direct": false
+   },
+   {
+    "name": "lodash",
+    "version": "4.17.20",
+    "direct": true
+   },
+   {
+    "name": "minimist",
+    "version": "1.2.5",
+    "direct": false
+   }
+  ],
+  "packages_with_dev": [
+   {
+    "name": "@babel/core",
+    "version": "7.22.0",
+    "direct": true
+   },
+   {
+    "name": "semver",
+    "version": "6.3.0",
+    "direct": false
+   },
+   {
+    "name": "fsevents",
+    "version": "2.3.3",
+    "direct": false
+   },
+   {
+    "name": "jest",
+    "version": "29.7.0",
+    "direct": true
+   },
+   {
+    "name": "lodash",
+    "version": "3.10.1",
+    "direct": false
+   },
+   {
+    "name": "lodash",
+    "version": "4.17.20",
+    "direct": true
+   },
+   {
+    "name": "minimist",
+    "version": "1.2.5",
+    "direct": false
+   }
+  ]
+ },
+ "npm-version-number/package-lock.json": {
+  "ecosystem": "npm",
+  "error": true,
+  "packages": null,
+  "packages_with_dev": null
+ },
+ "nuget/packages.lock.json": {
+  "ecosystem": "NuGet",
+  "error": false,
+  "packages": [
+   {
+    "name": "Serilog",
+    "version": "3.0.0",
+    "direct": false
+   },
+   {
+    "name": "newtonsoft.json",
+    "version": "13.0.1",
+    "direct": true
+   },
+   {
+    "name": "System.Text.Json",
+    "version": "8.0.0",
+    "direct": false
+   }
+  ],
+  "packages_with_dev": [
+   {
+    "name": "Serilog",
+    "version": "3.0.0",
+    "direct": false
+   },
+   {
+    "name": "newtonsoft.json",
+    "version": "13.0.1",
+    "direct": true
+   },
+   {
+    "name": "System.Text.Json",
+    "version": "8.0.0",
+    "direct": false
+   }
+  ]
+ },
+ "pipfile/Pipfile.lock": {
+  "ecosystem": "PyPI",
+  "error": false,
+  "packages": [
+   {
+    "name": "flask",
+    "version": "2.0.0",
+    "direct": false
+   },
+   {
+    "name": "requests",
+    "version": "2.31.0",
+    "direct": false
+   }
+  ],
+  "packages_with_dev": [
+   {
+    "name": "flask",
+    "version": "2.0.0",
+    "direct": false
+   },
+   {
+    "name": "requests",
+    "version": "2.31.0",
+    "direct": false
+   },
+   {
+    "name": "pytest",
+    "version": "7.4.0",
+    "direct": false
+   }
+  ]
+ },
+ "shrinkwrap/npm-shrinkwrap.json": {
+  "ecosystem": "npm",
+  "error": false,
+  "packages": [
+   {
+    "name": "a",
+    "version": "1.0.0",
+    "direct": false
+   }
+  ],
+  "packages_with_dev": [
+   {
+    "name": "a",
+    "version": "1.0.0",
+    "direct": false
+   }
+  ]
+ }
+}

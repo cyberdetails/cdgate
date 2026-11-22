@@ -1,0 +1,51 @@
+{
+ "bomFormat": "CycloneDX",
+ "components": [
+  {
+   "type": "library",
+   "name": "Pod",
+   "purl": "pkg:cocoapods/Pod@1.0.0#Sub%2Fx"
+  },
+  {
+   "type": "library",
+   "name": "atgem",
+   "purl": "pkg:gem/@x@1.0.0"
+  },
+  {
+   "type": "library",
+   "name": "noversion",
+   "purl": "pkg:npm/@scope/noversion"
+  },
+  {
+   "type": "library",
+   "name": "artifact",
+   "purl": "pkg:maven/org.x/art%69fact@1.0.0"
+  },
+  {
+   "type": "library",
+   "name": "qq",
+   "purl": "pkg:npm/qq@1.0.0?a=&a=1"
+  },
+  {
+   "type": "library",
+   "name": "ext5",
+   "purl": "pkg:chrome-extension/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@1.2.3.4.5"
+  },
+  {
+   "type": "library",
+   "name": "inginx",
+   "purl": "pkg:bitnami/%C4%B0nginx@1.25.3"
+  },
+  {
+   "type": "library",
+   "name": "epochplus",
+   "purl": "pkg:deb/debian/epochplus@1.0?arch=amd64",
+   "properties": [
+    {
+     "name": "aquasecurity:trivy:SrcEpoch",
+     "value": "+1"
+    }
+   ]
+  }
+ ]
+}

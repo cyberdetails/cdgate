@@ -1,0 +1,10 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: t
+DocumentNamespace: https://x
+Creator: Tool: trivy-x
+Created: 2024-01-01T00:00:00Z
+PackageName: y
+SPDXID: SPDXRef-y
+ExternalRef: PACKAGE_MANAGER purl pkg:npm/y@1.0.0

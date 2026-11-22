@@ -1,0 +1,13 @@
+src_cdx.json	os	deb	bash	5.2.15-2+b2	src=bash|5.2.15-2+b2||1|class=|ep=1|rel=
+src_cdx.json	os	deb	libc6	2.36-9	src=glibc|2.36|9|2|class=|ep=0|rel=
+src_cdx.json	os	deb	x	1.0-1	src=xsrc|1.0-1||0|class=|ep=0|rel=
+src_cdx.json	os	deb	y	1.0-1	src=y|9.9||0|class=|ep=0|rel=
+src_cdx.json	os	deb	z	1.0-1	src=b|1.0-1||0|class=third-party|ep=0|rel=
+src_spdx.json	os	deb	libssl3	3.0.11-1	src=openssl|3.0.11|1~deb12u2|1|class=|ep=0|rel=
+src_spdx.json	os	deb	p	1.0-1	src=propname|7.0|3|0|class=|ep=0|rel=
+src_spdx.json	os	deb	q	1.0-1	src=qsrc|4.0||0|class=|ep=0|rel=
+more_cdx.json	os	deb	ep	1.0-1	src=epsrc|1.0||0|class=|ep=1|rel=
+more_cdx.json	os	deb	cls	1.0-1	src=cls|1.0-1||0|class=|ep=0|rel=
+rpm_cdx.json	os	rpm	dash	1.2-3-4.el9	src=dash|1.2|3-4.el9|0|class=|ep=0|rel=3-4.el9
+rpm_cdx.json	os	rpm	noprop	2.0-5.el9	src=noprop|2.0|5.el9|2|class=|ep=2|rel=5.el9
+badepoch_cdx.json	ERR	failed to decode: failed to decode components: failed to decode package: failed to fill package properties: invalid src epoch: strconv.Atoi: parsing "x": invalid syntax

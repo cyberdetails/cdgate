@@ -1,0 +1,32 @@
+{
+ "version": 1,
+ "dependencies": {
+  "net8.0": {
+   "Newtonsoft.Json": {
+    "type": "Direct",
+    "resolved": "13.0.1"
+   },
+   "My.Project": {
+    "type": "Project"
+   },
+   "System.Text.Json": {
+    "type": "Transitive",
+    "resolved": "8.0.0"
+   },
+   "Other.Project": {
+    "type": "project",
+    "resolved": "1.0.0"
+   }
+  },
+  "net6.0": {
+   "newtonsoft.json": {
+    "type": "direct",
+    "resolved": "13.0.1"
+   },
+   "Serilog": {
+    "type": "Transitive",
+    "resolved": "3.0.0"
+   }
+  }
+ }
+}

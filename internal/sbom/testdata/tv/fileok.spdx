@@ -1,0 +1,17 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: t
+DocumentNamespace: https://x
+Creator: Tool: trivy-x
+Created: 2024-01-01T00:00:00Z
+PackageName: a
+SPDXID: SPDXRef-a
+PackageDownloadLocation: NONE
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/a@1
+FileName: ./f
+SPDXID: SPDXRef-File-f
+FileChecksum: SHA1: 85ed0817af83a24ad8da68c2b5094de69833983c
+PackageName: b
+SPDXID: SPDXRef-b
+ExternalRef: PACKAGE-MANAGER purl pkg:npm/b@2

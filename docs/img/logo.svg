@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 132" width="520" height="132" role="img" aria-label="cdgate, dependency gate by CyberDetails">
+  <rect width="520" height="132" rx="18" fill="#0f1410"/>
+  <g transform="translate(26 22)">
+    <rect width="88" height="88" rx="16" fill="#1a2219" stroke="#c6dd74" stroke-width="3"/>
+    <path d="M22 46 L38 62 L66 28" fill="none" stroke="#c6dd74" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="138" y="70" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="50" font-weight="700" fill="#ffffff">cdgate</text>
+  <circle cx="336" cy="36" r="7" fill="#c6dd74"/>
+  <text x="140" y="102" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" fill="#a9b5a2">dependency gate by CyberDetails</text>
+</svg>

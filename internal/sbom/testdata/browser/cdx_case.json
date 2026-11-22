@@ -1,0 +1,1 @@
+{"BOMFORMAT": "CycloneDX", "Components": [{"TYPE": "library", "Name": "lodash", "PURL": "pkg:npm/lodash@4.17.20"}]}

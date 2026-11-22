@@ -1,0 +1,944 @@
+exit=1
+CyberDetails SCA gate VERSION — trivy: 1091 finding(s), 637 distinct CVE(s); block at: high
+  scanner severity: 31 CRITICAL, 307 HIGH, 419 MEDIUM, 310 LOW, 24 UNKNOWN
+  exploitation:     224 known exploited, 194 high, 428 standard, 223 not in archive, 22 without CVE
+  base OS:          debian 11.3 — END OF LIFE: the distribution no longer ships security fixes; rebuild on a supported base image
+
+BLOCKED — 255 CVE(s), 418 finding(s)
+  CVE-2005-2541     Public exploit code.
+      tar 1.34+dfsg-1 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2005-2541
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2007-5686     aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      login, passwd 1:4.8.1-1 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2007-5686
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+        - y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y…
+  CVE-2010-4756     Public exploit code.
+      libc-bin, libc6 2.31-13+deb11u3 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2010-4756
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-10
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+        - y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y…
+  CVE-2017-11164    Public exploit code.
+      libpcre3 2:8.39-13 (no fix listed)
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+        - y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y…
+  CVE-2017-16231    Listed in CISA KEV.
+      libpcre3 2:8.39-13 (no fix listed)
+  CVE-2017-17740    Public exploit code.
+      libldap-2.4-2 2.4.57+dfsg-3+deb11u1 (no fix listed)
+  CVE-2018-20796    Listed in CISA KEV.
+      libc-bin, libc6 2.31-13+deb11u3 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2018-20796
+      detect: SIEM queries (Sigma, Sentinel KQL) https://cyberdetails.org/exploit/cde-218
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2019-1010022  aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      libc-bin, libc6 2.31-13+deb11u3 (no fix listed)
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2019-1010024  Listed in CISA KEV.
+      libc-bin, libc6 2.31-13+deb11u3 (no fix listed)
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2019-20838    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      libpcre3 2:8.39-13 (no fix listed)
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+        - y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y…
+  CVE-2021-22898    Listed in CISA KEV.
+      curl, libcurl4 7.74.0-1.3+deb11u1 -> 7.74.0-1.3+deb11u2
+  CVE-2021-22946    Listed in CISA KEV.
+      curl, libcurl4 7.74.0-1.3+deb11u1 -> 7.74.0-1.3+deb11u2
+      https://cyberdetails.org/cve/CVE-2021-22946
+  CVE-2021-38115    Public exploit code.
+      libgd3 2.3.0-2 -> 2.3.0-2+deb11u1
+      https://cyberdetails.org/cve/CVE-2021-38115
+  CVE-2021-46822    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      libjpeg62-turbo 1:2.0.6-4 (no fix listed)
+  CVE-2021-46848    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      libtasn1-6 4.16.0-2 -> 4.16.0-2+deb11u1
+      https://cyberdetails.org/cve/CVE-2021-46848
+  CVE-2022-1056     Listed in CISA KEV.
+      libtiff5 4.2.0-1+deb11u1 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2022-1056
+  CVE-2022-1586     Listed in CISA KEV.
+      libpcre2-8-0 10.36-2 -> 10.36-2+deb11u1
+  CVE-2022-1587     Listed in CISA KEV.
+      libpcre2-8-0 10.36-2 -> 10.36-2+deb11u1
+      detect: SIEM queries (Sigma, Sentinel KQL) https://cyberdetails.org/exploit/cde-184
+  CVE-2022-1622     Public exploit code.
+      libtiff5 4.2.0-1+deb11u1 -> 4.2.0-1+deb11u3
+  CVE-2022-2058     Public exploit code.
+      libtiff5 4.2.0-1+deb11u1 -> 4.2.0-1+deb11u3
+      https://cyberdetails.org/cve/CVE-2022-2058
+      detect: SIEM queries (Sigma, Sentinel KQL) https://cyberdetails.org/exploit/cde-8
+  CVE-2022-2509     Listed in CISA KEV.
+      libgnutls30 3.7.1-5 -> 3.7.1-5+deb11u2
+      https://cyberdetails.org/cve/CVE-2022-2509
+  CVE-2022-2521     Listed in CISA KEV.
+      libtiff5 4.2.0-1+deb11u1 -> 4.2.0-1+deb11u3
+      https://cyberdetails.org/cve/CVE-2022-2521
+  CVE-2022-27776    Listed in CISA KEV.
+      curl, libcurl4 7.74.0-1.3+deb11u1 -> 7.74.0-1.3+deb11u2
+      https://cyberdetails.org/cve/CVE-2022-27776
+  CVE-2022-34903    Listed in CISA KEV.
+      gpgv 2.2.27-2+deb11u1 -> 2.2.27-2+deb11u2
+  CVE-2022-35252    Listed in CISA KEV.
+      curl, libcurl4 7.74.0-1.3+deb11u1 -> 7.74.0-1.3+deb11u3
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-46
+  CVE-2022-3715     Public exploit code.
+      bash 5.1-2+b3 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2022-3715
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-136
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2022-40303    Listed in CISA KEV.
+      libxml2 2.9.10+dfsg-6.7+deb11u2 -> 2.9.10+dfsg-6.7+deb11u3
+  CVE-2022-40304    Listed in CISA KEV.
+      libxml2 2.9.10+dfsg-6.7+deb11u2 -> 2.9.10+dfsg-6.7+deb11u3
+  CVE-2022-4304     Public exploit code.
+      libssl1.1, openssl 1.1.1n-0+deb11u2 -> 1.1.1n-0+deb11u4
+      https://cyberdetails.org/cve/CVE-2022-4304
+  CVE-2022-4415     Public exploit code.
+      libsystemd0, libudev1 247.3-7 -> 247.3-7+deb11u2
+      https://cyberdetails.org/cve/CVE-2022-4415
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-84
+  CVE-2023-0466     Listed in CISA KEV.
+      libssl1.1, openssl 1.1.1n-0+deb11u2 -> 1.1.1n-0+deb11u5
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-43
+  CVE-2023-0799     Public exploit code.
+      libtiff5 4.2.0-1+deb11u1 -> 4.2.0-1+deb11u4
+  CVE-2023-2650     Listed in CISA KEV.
+      libssl1.1, openssl 1.1.1n-0+deb11u2 -> 1.1.1n-0+deb11u5
+      https://cyberdetails.org/cve/CVE-2023-2650
+  CVE-2023-27534    Listed in CISA KEV.
+      curl, libcurl4 7.74.0-1.3+deb11u1 -> 7.74.0-1.3+deb11u8
+      https://cyberdetails.org/cve/CVE-2023-27534
+  CVE-2023-2908     Listed in CISA KEV.
+      libtiff5 4.2.0-1+deb11u1 -> 4.2.0-1+deb11u6
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-153
+  CVE-2023-31486    Public exploit code.
+      perl-base 5.32.1-4+deb11u2 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2023-31486
+  CVE-2023-41175    Public exploit code.
+      libtiff5 4.2.0-1+deb11u1 -> 4.2.0-1+deb11u5
+      https://cyberdetails.org/cve/CVE-2023-41175
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-47
+  CVE-2023-4911     Public exploit code.
+      libc-bin, libc6 2.31-13+deb11u3 -> 2.31-13+deb11u7
+      detect: SIEM queries (Sigma, Sentinel KQL) https://cyberdetails.org/exploit/cde-208
+  CVE-2023-50495    Public exploit code.
+      libtinfo6, ncurses-base, ncurses-bin 6.2+20201114-2 (no fix listed)
+  CVE-2023-52356    Listed in CISA KEV.
+      libtiff5 4.2.0-1+deb11u1 -> 4.2.0-1+deb11u6
+      https://cyberdetails.org/cve/CVE-2023-52356
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-7
+  CVE-2023-52426    Public exploit code.
+      libexpat1 2.2.10-2+deb11u3 (no fix listed)
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-137
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2024-0567     Listed in CISA KEV.
+      libgnutls30 3.7.1-5 -> 3.7.1-5+deb11u5
+      https://cyberdetails.org/cve/CVE-2024-0567
+  CVE-2024-12243    Public exploit code.
+      libgnutls30 3.7.1-5 -> 3.7.1-5+deb11u7
+      https://cyberdetails.org/cve/CVE-2024-12243
+  CVE-2024-13978    Public exploit code.
+      libtiff5 4.2.0-1+deb11u1 -> 4.2.0-1+deb11u7
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-205
+  CVE-2024-22365    Public exploit code.
+      libpam-modules, libpam-modules-bin, libpam-runtime, libpam0g 1.4.0-9+deb11u1 -> 1.4.0-9+deb11u2
+      https://cyberdetails.org/cve/CVE-2024-22365
+  CVE-2024-2398     Public exploit code.
+      curl, libcurl4 7.74.0-1.3+deb11u1 -> 7.74.0-1.3+deb11u12
+  CVE-2024-28757    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      libexpat1 2.2.10-2+deb11u3 (no fix listed)
+  CVE-2024-33599    Public exploit code.
+      libc-bin, libc6 2.31-13+deb11u3 -> 2.31-13+deb11u10
+      https://cyberdetails.org/cve/CVE-2024-33599
+  CVE-2024-33600    Public exploit code.
+      libc-bin, libc6 2.31-13+deb11u3 -> 2.31-13+deb11u10
+      https://cyberdetails.org/cve/CVE-2024-33600
+  CVE-2024-33602    Listed in CISA KEV.
+      libc-bin, libc6 2.31-13+deb11u3 -> 2.31-13+deb11u10
+      https://cyberdetails.org/cve/CVE-2024-33602
+  CVE-2024-37371    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      libgssapi-krb5-2, libk5crypto3, libkrb5-3, libkrb5support0 1.18.3-6+deb11u1 -> 1.18.3-6+deb11u5
+  CVE-2024-4741     Public exploit code.
+      libssl1.1, openssl 1.1.1n-0+deb11u2 -> 1.1.1w-0+deb11u2
+  CVE-2024-56433    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      login, passwd 1:4.8.1-1 (no fix listed)
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-75
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2024-7006     Public exploit code.
+      libtiff5 4.2.0-1+deb11u1 -> 4.2.0-1+deb11u6
+  CVE-2024-9143     Public exploit code.
+      libssl1.1, openssl 1.1.1n-0+deb11u2 -> 1.1.1w-0+deb11u2
+      https://cyberdetails.org/cve/CVE-2024-9143
+  CVE-2025-24928    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      libxml2 2.9.10+dfsg-6.7+deb11u2 -> 2.9.10+dfsg-6.7+deb11u6
+      https://cyberdetails.org/cve/CVE-2025-24928
+  CVE-2025-27587    Public exploit code.
+      libssl1.1, openssl 1.1.1n-0+deb11u2 (no fix listed)
+      detect: SIEM queries (Sigma, Sentinel KQL) https://cyberdetails.org/exploit/cde-249
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2025-32414    Public exploit code.
+      libxml2 2.9.10+dfsg-6.7+deb11u2 -> 2.9.10+dfsg-6.7+deb11u7
+  CVE-2025-32988    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      libgnutls30 3.7.1-5 -> 3.7.1-5+deb11u8
+      https://cyberdetails.org/cve/CVE-2025-32988
+  CVE-2025-3576     Listed in CISA KEV.
+      libgssapi-krb5-2, libk5crypto3, libkrb5-3, libkrb5support0 1.18.3-6+deb11u1 -> 1.18.3-6+deb11u7
+      https://cyberdetails.org/cve/CVE-2025-3576
+  CVE-2025-49794    Public exploit code.
+      libxml2 2.9.10+dfsg-6.7+deb11u2 -> 2.9.10+dfsg-6.7+deb11u8
+      https://cyberdetails.org/cve/CVE-2025-49794
+  CVE-2025-61144    Public exploit code.
+      libtiff5 4.2.0-1+deb11u1 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2025-61144
+  CVE-2025-6170     Listed in CISA KEV.
+      libxml2 2.9.10+dfsg-6.7+deb11u2 -> 2.9.10+dfsg-6.7+deb11u8
+  CVE-2025-64505    Public exploit code.
+      libpng16-16 1.6.37-3 -> 1.6.37-3+deb11u1
+  CVE-2025-66293    Listed in CISA KEV.
+      libpng16-16 1.6.37-3 -> 1.6.37-3+deb11u1
+      https://cyberdetails.org/cve/CVE-2025-66293
+      detect: SIEM queries (Sigma, Sentinel KQL) https://cyberdetails.org/exploit/cde-50
+  CVE-2025-68972    Listed in CISA KEV.
+      gpgv 2.2.27-2+deb11u1 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2025-68972
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+        - y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y…
+  CVE-2025-68973    Listed in CISA KEV.
+      gpgv 2.2.27-2+deb11u1 -> 2.2.27-2+deb11u3
+  CVE-2025-69419    Listed in CISA KEV.
+      libssl1.1, openssl 1.1.1n-0+deb11u2 -> 1.1.1w-0+deb11u5
+      https://cyberdetails.org/cve/CVE-2025-69419
+  CVE-2025-69421    Public exploit code.
+      libssl1.1, openssl 1.1.1n-0+deb11u2 -> 1.1.1w-0+deb11u5
+      detect: SIEM queries (Sigma, Sentinel KQL) https://cyberdetails.org/exploit/cde-217
+  CVE-2025-7424     aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      libxslt1.1 1.1.34-4 -> 1.1.34-4+deb11u3
+      https://cyberdetails.org/cve/CVE-2025-7424
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-23
+  CVE-2025-8961     Public exploit code.
+      libtiff5 4.2.0-1+deb11u1 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2025-8961
+  CVE-2026-0861     Public exploit code.
+      libc-bin, libc6 2.31-13+deb11u3 -> 2.31-13+deb11u14
+  CVE-2026-102633   Listed in CISA KEV.
+      libexpat1 2.2.10-2+deb11u3 (no fix listed)
+  CVE-2026-107161   Listed in CISA KEV.
+      libsasl2-2, libsasl2-modules-db 2.1.27+dfsg-2.1+deb11u1 (no fix listed)
+      detect: SIEM queries (Sigma, Sentinel KQL) https://cyberdetails.org/exploit/cde-137
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2026-107496   aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      libssl1.1, openssl 1.1.1n-0+deb11u2 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-107496
+      detect: SIEM queries (Sigma, Sentinel KQL) https://cyberdetails.org/exploit/cde-30
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+        - y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y…
+  CVE-2026-107778   Public exploit code.
+      libgssapi-krb5-2, libk5crypto3, libkrb5-3, libkrb5support0 1.18.3-6+deb11u1 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-107778
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+        - y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y…
+  CVE-2026-107928   aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      curl, libcurl4 7.74.0-1.3+deb11u1 (no fix listed)
+  CVE-2026-109518   aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      apt, libapt-pkg6.0 2.2.4 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-109518
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+        - y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y…
+  CVE-2026-112314   Public exploit code.
+      libgssapi-krb5-2, libk5crypto3, libkrb5-3, libkrb5support0 1.18.3-6+deb11u1 (no fix listed)
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-137
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2026-112317   aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      libgssapi-krb5-2, libk5crypto3, libkrb5-3, libkrb5support0 1.18.3-6+deb11u1 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-112317
+  CVE-2026-112321   Public exploit code.
+      libgssapi-krb5-2, libk5crypto3, libkrb5-3, libkrb5support0 1.18.3-6+deb11u1 (no fix listed)
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-244
+  CVE-2026-11979    Public exploit code.
+      libxml2 2.9.10+dfsg-6.7+deb11u2 (no fix listed)
+  CVE-2026-128241   Listed in CISA KEV.
+      libexpat1 2.2.10-2+deb11u3 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-128241
+  CVE-2026-18374    Public exploit code.
+      libc-bin, libc6 2.31-13+deb11u3 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-18374
+  CVE-2026-1965     Listed in CISA KEV.
+      curl, libcurl4 7.74.0-1.3+deb11u1 (no fix listed)
+      detect: SIEM queries (Sigma, Sentinel KQL) https://cyberdetails.org/exploit/cde-211
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2026-22695    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      libpng16-16 1.6.37-3 -> 1.6.37-3+deb11u2
+  CVE-2026-22795    Listed in CISA KEV.
+      libssl1.1, openssl 1.1.1n-0+deb11u2 -> 1.1.1w-0+deb11u5
+  CVE-2026-25646    Public exploit code.
+      libpng16-16 1.6.37-3 -> 1.6.37-3+deb11u2
+      https://cyberdetails.org/cve/CVE-2026-25646
+  CVE-2026-3184     Public exploit code.
+      bsdutils 1:2.36.1-8+deb11u1 (no fix listed)
+      libblkid1, libmount1, libsmartcols1, libuuid1 +2 2.36.1-8+deb11u1 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-3184
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-99
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+        - y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y…
+  CVE-2026-40226    Listed in CISA KEV.
+      libsystemd0, libudev1 247.3-7 -> 247.3-7+deb11u8
+      detect: SIEM queries (Sigma, Sentinel KQL) https://cyberdetails.org/exploit/cde-205
+  CVE-2026-40356    Listed in CISA KEV.
+      libgssapi-krb5-2, libk5crypto3, libkrb5-3, libkrb5support0 1.18.3-6+deb11u1 -> 1.18.3-6+deb11u8
+      https://cyberdetails.org/cve/CVE-2026-40356
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-43
+  CVE-2026-4105     Listed in CISA KEV.
+      libsystemd0, libudev1 247.3-7 -> 247.3-7+deb11u8
+      https://cyberdetails.org/cve/CVE-2026-4105
+  CVE-2026-41991    Public exploit code.
+      gzip 1.10-4+deb11u1 (no fix listed)
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+        - y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y…
+  CVE-2026-41992    Public exploit code.
+      gzip 1.10-4+deb11u1 (no fix listed)
+  CVE-2026-42011    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      libgnutls30 3.7.1-5 -> 3.7.1-5+deb11u10
+  CVE-2026-42013    Public exploit code.
+      libgnutls30 3.7.1-5 -> 3.7.1-5+deb11u10
+      https://cyberdetails.org/cve/CVE-2026-42013
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-212
+  CVE-2026-45186    Public exploit code.
+      libexpat1 2.2.10-2+deb11u3 (no fix listed)
+  CVE-2026-45447    Listed in CISA KEV.
+      libssl1.1, openssl 1.1.1n-0+deb11u2 -> 1.1.1w-0+deb11u8
+      https://cyberdetails.org/cve/CVE-2026-45447
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-175
+  CVE-2026-50219    Public exploit code.
+      libexpat1 2.2.10-2+deb11u3 (no fix listed)
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2026-52491    Listed in CISA KEV.
+      libtiff5 4.2.0-1+deb11u1 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-52491
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-226
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+        - y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y…
+  CVE-2026-54875    Public exploit code.
+      libssl1.1, openssl 1.1.1n-0+deb11u2 (no fix listed)
+  CVE-2026-56132    Public exploit code.
+      libexpat1 2.2.10-2+deb11u3 (no fix listed)
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2026-56392    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      coreutils 8.32-4+b1 (no fix listed)
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2026-56405    Public exploit code.
+      libexpat1 2.2.10-2+deb11u3 (no fix listed)
+      detect: SIEM queries (Sigma, Sentinel KQL) https://cyberdetails.org/exploit/cde-221
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2026-56407    Listed in CISA KEV.
+      libexpat1 2.2.10-2+deb11u3 (no fix listed)
+      detect: SIEM queries (Sigma, Sentinel KQL) https://cyberdetails.org/exploit/cde-192
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2026-57432    Public exploit code.
+      perl-base 5.32.1-4+deb11u2 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-57432
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2026-57433    Public exploit code.
+      perl-base 5.32.1-4+deb11u2 (no fix listed)
+  CVE-2026-5773     Listed in CISA KEV.
+      curl, libcurl4 7.74.0-1.3+deb11u1 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-5773
+      detect: SIEM queries (Sigma, Sentinel KQL) https://cyberdetails.org/exploit/cde-250
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2026-58051    Public exploit code.
+      libssh2-1 1.9.0-2 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-58051
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+        - y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y…
+  CVE-2026-6238     aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      libc-bin, libc6 2.31-13+deb11u3 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-6238
+  CVE-2026-6276     Public exploit code.
+      curl, libcurl4 7.74.0-1.3+deb11u1 (no fix listed)
+  CVE-2026-63072    Listed in CISA KEV.
+      libssl1.1, openssl 1.1.1n-0+deb11u2 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-63072
+  CVE-2026-63074    Listed in CISA KEV.
+      libssl1.1, openssl 1.1.1n-0+deb11u2 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-63074
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2026-66032    Listed in CISA KEV.
+      libssh2-1 1.9.0-2 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-66032
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-103
+  CVE-2026-6653     aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      libxml2 2.9.10+dfsg-6.7+deb11u2 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-6653
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-64
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+        - y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y…
+  CVE-2026-6791     Listed in CISA KEV.
+      libc-bin, libc6 2.31-13+deb11u3 (no fix listed)
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2026-72897    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      libssl1.1, openssl 1.1.1n-0+deb11u2 (no fix listed)
+  CVE-2026-75805    Listed in CISA KEV.
+      libssl1.1, openssl 1.1.1n-0+deb11u2 (no fix listed)
+  CVE-2026-7598     Listed in CISA KEV.
+      libssh2-1 1.9.0-2 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-7598
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-142
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+        - y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y…
+  CVE-2026-8286     Listed in CISA KEV.
+      curl, libcurl4 7.74.0-1.3+deb11u1 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-8286
+  CVE-2026-86137    Public exploit code.
+      libxml2 2.9.10+dfsg-6.7+deb11u2 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-86137
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2026-86144    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      libxml2 2.9.10+dfsg-6.7+deb11u2 (no fix listed)
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2026-86412    Listed in CISA KEV.
+      curl, libcurl4 7.74.0-1.3+deb11u1 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-86412
+  CVE-2026-86414    Listed in CISA KEV.
+      curl, libcurl4 7.74.0-1.3+deb11u1 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-86414
+  CVE-2026-8674     aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      libc-bin, libc6 2.31-13+deb11u3 (no fix listed)
+      detect: SIEM queries (Sigma, Sentinel KQL) https://cyberdetails.org/exploit/cde-33
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+        - y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y…
+  CVE-2026-87863    Listed in CISA KEV.
+      curl, libcurl4 7.74.0-1.3+deb11u1 (no fix listed)
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-252
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+        - y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y…
+  CVE-2026-88648    Listed in CISA KEV.
+      libgnutls30 3.7.1-5 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-88648
+      detect: SIEM queries (Sigma, Sentinel KQL) https://cyberdetails.org/exploit/cde-250
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2026-89162    Listed in CISA KEV.
+      libpcre2-8-0 10.36-2 (no fix listed)
+  CVE-2026-8924     Public exploit code.
+      curl, libcurl4 7.74.0-1.3+deb11u1 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-8924
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2026-92391    Listed in CISA KEV.
+      curl, libcurl4 7.74.0-1.3+deb11u1 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-92391
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2026-92392    Listed in CISA KEV.
+      curl, libcurl4 7.74.0-1.3+deb11u1 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-92392
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2026-93990    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      libexpat1 2.2.10-2+deb11u3 (no fix listed)
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+        - y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y…
+  CVE-2026-94265    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      curl, libcurl4 7.74.0-1.3+deb11u1 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-94265
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-31
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2026-94285    Listed in CISA KEV.
+      libx11-6, libx11-data 2:1.7.2-1 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-94285
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+        - y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y…
+  CVE-2026-95691    Public exploit code.
+      libssl1.1, openssl 1.1.1n-0+deb11u2 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-95691
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+        - y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y…
+  CVE-2026-9672     aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      libgd3 2.3.0-2 -> 2.3.0-2+deb11u2
+      https://cyberdetails.org/cve/CVE-2026-9672
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-123
+  CVE-2011-3389     aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      libgnutls30 3.7.1-5 (no fix listed)
+  CVE-2013-4392     Listed in CISA KEV.
+      libsystemd0, libudev1 247.3-7 (no fix listed)
+  CVE-2016-3709     Listed in CISA KEV.
+      libxml2 2.9.10+dfsg-6.7+deb11u2 -> 2.9.10+dfsg-6.7+deb11u5
+  CVE-2017-7245     Public exploit code.
+      libpcre3 2:8.39-13 (no fix listed)
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+        - y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y…
+  CVE-2019-9192     aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      libc-bin, libc6 2.31-13+deb11u3 (no fix listed)
+  CVE-2020-22218    Public exploit code.
+      libssh2-1 1.9.0-2 -> 1.9.0-2+deb11u1
+      https://cyberdetails.org/cve/CVE-2020-22218
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-76
+  CVE-2021-22922    Public exploit code.
+      curl, libcurl4 7.74.0-1.3+deb11u1 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2021-22922
+  CVE-2021-22924    Public exploit code.
+      curl, libcurl4 7.74.0-1.3+deb11u1 -> 7.74.0-1.3+deb11u2
+      https://cyberdetails.org/cve/CVE-2021-22924
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-253
+  CVE-2021-30560    Listed in CISA KEV.
+      libxslt1.1 1.1.34-4 -> 1.1.34-4+deb11u1
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-199
+  CVE-2021-33560    Public exploit code.
+      libgcrypt20 1.8.7-6 (no fix listed)
+  CVE-2021-36084    Public exploit code.
+      libsepol1 3.1-1 -> 3.1-1+deb11u1
+      https://cyberdetails.org/cve/CVE-2021-36084
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-35
+  CVE-2021-40145    Listed in CISA KEV.
+      libgd3 2.3.0-2 -> 2.3.0-2+deb11u1
+  CVE-2021-46828    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      libtirpc-common, libtirpc3 1.3.1-1 -> 1.3.1-1+deb11u1
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-217
+  CVE-2022-1304     Public exploit code.
+      e2fsprogs, libcom-err2, libext2fs2, libss2 +1 1.46.2-2 -> 1.46.2-2+deb11u1
+      detect: SIEM queries (Sigma, Sentinel KQL) https://cyberdetails.org/exploit/cde-7
+  CVE-2022-22576    Public exploit code.
+      curl, libcurl4 7.74.0-1.3+deb11u1 -> 7.74.0-1.3+deb11u2
+  CVE-2022-27774    Listed in CISA KEV.
+      curl, libcurl4 7.74.0-1.3+deb11u1 -> 7.74.0-1.3+deb11u2
+      https://cyberdetails.org/cve/CVE-2022-27774
+      detect: SIEM queries (Sigma, Sentinel KQL) https://cyberdetails.org/exploit/cde-148
+  CVE-2022-2867     Public exploit code.
+      libtiff5 4.2.0-1+deb11u1 -> 4.2.0-1+deb11u3
+      https://cyberdetails.org/cve/CVE-2022-2867
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-83
+  CVE-2022-3627     Public exploit code.
+      libtiff5 4.2.0-1+deb11u1 -> 4.2.0-1+deb11u3
+      https://cyberdetails.org/cve/CVE-2022-3627
+      detect: SIEM queries (Sigma, Sentinel KQL) https://cyberdetails.org/exploit/cde-187
+  CVE-2022-37434    Listed in CISA KEV.
+      zlib1g 1:1.2.11.dfsg-2+deb11u1 -> 1:1.2.11.dfsg-2+deb11u2
+  CVE-2022-40090    Public exploit code.
+      libtiff5 4.2.0-1+deb11u1 (no fix listed)
+      detect: SIEM queries (Sigma, Sentinel KQL) https://cyberdetails.org/exploit/cde-124
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2022-41409    Listed in CISA KEV.
+      libpcre2-8-0 10.36-2 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2022-41409
+  CVE-2022-43680    Listed in CISA KEV.
+      libexpat1 2.2.10-2+deb11u3 -> 2.2.10-2+deb11u5
+      https://cyberdetails.org/cve/CVE-2022-43680
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-58
+  CVE-2022-48281    Listed in CISA KEV.
+      libtiff5 4.2.0-1+deb11u1 -> 4.2.0-1+deb11u3
+      https://cyberdetails.org/cve/CVE-2022-48281
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-96
+  CVE-2022-48303    Listed in CISA KEV.
+      tar 1.34+dfsg-1 -> 1.34+dfsg-1+deb11u1
+      https://cyberdetails.org/cve/CVE-2022-48303
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-183
+  CVE-2022-4883     aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      libxpm4 1:3.5.12-1 -> 1:3.5.12-1.1~deb11u1
+  CVE-2023-0215     aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      libssl1.1, openssl 1.1.1n-0+deb11u2 -> 1.1.1n-0+deb11u4
+  CVE-2023-0795     Public exploit code.
+      libtiff5 4.2.0-1+deb11u1 -> 4.2.0-1+deb11u4
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-97
+  CVE-2023-1916     Public exploit code.
+      libtiff5 4.2.0-1+deb11u1 (no fix listed)
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-165
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2023-23914    Public exploit code.
+      curl, libcurl4 7.74.0-1.3+deb11u1 (no fix listed)
+  CVE-2023-30086    Public exploit code.
+      libtiff5 4.2.0-1+deb11u1 -> 4.2.0-1+deb11u3
+  CVE-2023-44487    Listed in CISA KEV.
+      libnghttp2-14 1.43.0-1 -> 1.43.0-1+deb11u1
+      https://cyberdetails.org/cve/CVE-2023-44487
+  CVE-2023-4863     Public exploit code.
+      libwebp6 0.6.1-2.1 -> 0.6.1-2.1+deb11u2
+      https://cyberdetails.org/cve/CVE-2023-4863
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-208
+  CVE-2023-52425    Listed in CISA KEV.
+      libexpat1 2.2.10-2+deb11u3 -> 2.2.10-2+deb11u6
+      https://cyberdetails.org/cve/CVE-2023-52425
+  CVE-2023-6228     Listed in CISA KEV.
+      libtiff5 4.2.0-1+deb11u1 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2023-6228
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+        - y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y…
+  CVE-2023-7008     Listed in CISA KEV.
+      libsystemd0, libudev1 247.3-7 -> 247.3-7+deb11u6
+  CVE-2024-0553     Public exploit code.
+      libgnutls30 3.7.1-5 -> 3.7.1-5+deb11u5
+      https://cyberdetails.org/cve/CVE-2024-0553
+  CVE-2024-0727     Listed in CISA KEV.
+      libssl1.1, openssl 1.1.1n-0+deb11u2 -> 1.1.1w-0+deb11u2
+      https://cyberdetails.org/cve/CVE-2024-0727
+  CVE-2024-2379     Listed in CISA KEV.
+      curl, libcurl4 7.74.0-1.3+deb11u1 (no fix listed)
+  CVE-2024-25062    Public exploit code.
+      libxml2 2.9.10+dfsg-6.7+deb11u2 -> 2.9.10+dfsg-6.7+deb11u6
+  CVE-2024-2961     aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      libc-bin, libc6 2.31-13+deb11u3 -> 2.31-13+deb11u9
+      https://cyberdetails.org/cve/CVE-2024-2961
+  CVE-2024-33601    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      libc-bin, libc6 2.31-13+deb11u3 -> 2.31-13+deb11u10
+  CVE-2024-45491    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      libexpat1 2.2.10-2+deb11u3 -> 2.2.10-2+deb11u6
+      https://cyberdetails.org/cve/CVE-2024-45491
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-61
+  CVE-2024-50602    Public exploit code.
+      libexpat1 2.2.10-2+deb11u3 -> 2.2.10-2+deb11u7
+  CVE-2024-9681     Listed in CISA KEV.
+      curl, libcurl4 7.74.0-1.3+deb11u1 (no fix listed)
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-14
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2025-0725     Public exploit code.
+      curl, libcurl4 7.74.0-1.3+deb11u1 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2025-0725
+  CVE-2025-10911    Public exploit code.
+      libxslt1.1 1.1.34-4 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2025-10911
+      detect: SIEM queries (Sigma, Sentinel KQL) https://cyberdetails.org/exploit/cde-93
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2025-14104    Public exploit code.
+      bsdutils 1:2.36.1-8+deb11u1 (no fix listed)
+      libblkid1, libmount1, libsmartcols1, libuuid1 +2 2.36.1-8+deb11u1 (no fix listed)
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+        - y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y…
+  CVE-2025-14831    Listed in CISA KEV.
+      libgnutls30 3.7.1-5 -> 3.7.1-5+deb11u9
+  CVE-2025-27363    Public exploit code.
+      libfreetype6 2.10.4+dfsg-1 -> 2.10.4+dfsg-1+deb11u2
+      https://cyberdetails.org/cve/CVE-2025-27363
+  CVE-2025-28162    Listed in CISA KEV.
+      libpng16-16 1.6.37-3 (no fix listed)
+  CVE-2025-40909    Public exploit code.
+      perl-base 5.32.1-4+deb11u2 -> 5.32.1-4+deb11u5
+  CVE-2025-61143    Listed in CISA KEV.
+      libtiff5 4.2.0-1+deb11u1 (no fix listed)
+      detect: SIEM queries (Sigma, Sentinel KQL) https://cyberdetails.org/exploit/cde-215
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2025-6141     Public exploit code.
+      libtinfo6, ncurses-base, ncurses-bin 6.2+20201114-2 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2025-6141
+  CVE-2025-6395     Listed in CISA KEV.
+      libgnutls30 3.7.1-5 -> 3.7.1-5+deb11u8
+  CVE-2025-68160    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      libssl1.1, openssl 1.1.1n-0+deb11u2 -> 1.1.1w-0+deb11u5
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-99
+  CVE-2025-69420    Listed in CISA KEV.
+      libssl1.1, openssl 1.1.1n-0+deb11u2 -> 1.1.1w-0+deb11u5
+  CVE-2025-69720    Listed in CISA KEV.
+      libtinfo6, ncurses-base, ncurses-bin 6.2+20201114-2 (no fix listed)
+  CVE-2025-9165     Listed in CISA KEV.
+      libtiff5 4.2.0-1+deb11u1 (no fix listed)
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+        - y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y…
+  CVE-2025-9820     Listed in CISA KEV.
+      libgnutls30 3.7.1-5 -> 3.7.1-5+deb11u9
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-229
+  CVE-2026-100290   Listed in CISA KEV.
+      libc-bin, libc6 2.31-13+deb11u3 (no fix listed)
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2026-103111   Listed in CISA KEV.
+      libpcre2-8-0 10.36-2 (no fix listed)
+  CVE-2026-105712   Listed in CISA KEV.
+      gpgv 2.2.27-2+deb11u1 (no fix listed)
+  CVE-2026-107708   Public exploit code.
+      libgssapi-krb5-2, libk5crypto3, libkrb5-3, libkrb5support0 1.18.3-6+deb11u1 (no fix listed)
+  CVE-2026-111423   aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      libgssapi-krb5-2, libk5crypto3, libkrb5-3, libkrb5support0 1.18.3-6+deb11u1 (no fix listed)
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2026-111497   Public exploit code.
+      libbrotli1 1.0.9-2+b2 (no fix listed)
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2026-112318   aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      libgssapi-krb5-2, libk5crypto3, libkrb5-3, libkrb5support0 1.18.3-6+deb11u1 (no fix listed)
+  CVE-2026-11850    Public exploit code.
+      libgssapi-krb5-2, libk5crypto3, libkrb5-3, libkrb5support0 1.18.3-6+deb11u1 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-11850
+  CVE-2026-12912    Listed in CISA KEV.
+      libtiff5 4.2.0-1+deb11u1 (no fix listed)
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-186
+  CVE-2026-13595    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      bsdutils 1:2.36.1-8+deb11u1 (no fix listed)
+      libblkid1, libmount1, libsmartcols1, libuuid1 +2 2.36.1-8+deb11u1 (no fix listed)
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+        - y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y…
+  CVE-2026-15059    Listed in CISA KEV.
+      libsystemd0, libudev1 247.3-7 (no fix listed)
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-113
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+        - y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y…
+  CVE-2026-15534    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      perl-base 5.32.1-4+deb11u2 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-15534
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-168
+  CVE-2026-1757     Listed in CISA KEV.
+      libxml2 2.9.10+dfsg-6.7+deb11u2 -> 2.9.10+dfsg-6.7+deb11u10
+      https://cyberdetails.org/cve/CVE-2026-1757
+  CVE-2026-18924    Public exploit code.
+      curl, libcurl4 7.74.0-1.3+deb11u1 (no fix listed)
+  CVE-2026-19487    Public exploit code.
+      perl-base 5.32.1-4+deb11u2 (no fix listed)
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-52
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2026-19499    Listed in CISA KEV.
+      libc-bin, libc6 2.31-13+deb11u3 (no fix listed)
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2026-19931    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      curl, libcurl4 7.74.0-1.3+deb11u1 (no fix listed)
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-9
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2026-22185    Listed in CISA KEV.
+      libldap-2.4-2 2.4.57+dfsg-3+deb11u1 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-22185
+  CVE-2026-22801    Listed in CISA KEV.
+      libpng16-16 1.6.37-3 -> 1.6.37-3+deb11u2
+      https://cyberdetails.org/cve/CVE-2026-22801
+  CVE-2026-27135    Public exploit code.
+      libnghttp2-14 1.43.0-1 -> 1.43.0-1+deb11u3
+  CVE-2026-28387    Listed in CISA KEV.
+      libssl1.1, openssl 1.1.1n-0+deb11u2 -> 1.1.1w-0+deb11u7
+  CVE-2026-28389    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      libssl1.1, openssl 1.1.1n-0+deb11u2 -> 1.1.1w-0+deb11u7
+  CVE-2026-29111    Listed in CISA KEV.
+      libsystemd0, libudev1 247.3-7 -> 247.3-7+deb11u8
+      https://cyberdetails.org/cve/CVE-2026-29111
+  CVE-2026-33636    Listed in CISA KEV.
+      libpng16-16 1.6.37-3 -> 1.6.37-3+deb11u3
+      detect: SIEM queries (Sigma, Sentinel KQL) https://cyberdetails.org/exploit/cde-243
+  CVE-2026-34757    Public exploit code.
+      libpng16-16 1.6.37-3 -> 1.6.37-3+deb11u4
+      https://cyberdetails.org/cve/CVE-2026-34757
+  CVE-2026-4046     Public exploit code.
+      libc-bin, libc6 2.31-13+deb11u3 -> 2.31-13+deb11u14
+  CVE-2026-42012    Public exploit code.
+      libgnutls30 3.7.1-5 -> 3.7.1-5+deb11u10
+      https://cyberdetails.org/cve/CVE-2026-42012
+      detect: SIEM queries (Sigma, Sentinel KQL) https://cyberdetails.org/exploit/cde-202
+  CVE-2026-42015    Public exploit code.
+      libgnutls30 3.7.1-5 -> 3.7.1-5+deb11u10
+  CVE-2026-48962    Listed in CISA KEV.
+      perl-base 5.32.1-4+deb11u2 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-48962
+      detect: SIEM queries (Sigma, Sentinel KQL) https://cyberdetails.org/exploit/cde-45
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2026-54369    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      libacl1 2.2.53-10 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-54369
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+        - y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y…
+  CVE-2026-5450     Public exploit code.
+      libc-bin, libc6 2.31-13+deb11u3 (no fix listed)
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+        - y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y…
+  CVE-2026-54873    Public exploit code.
+      libssl1.1, openssl 1.1.1n-0+deb11u2 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-54873
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-227
+  CVE-2026-5545     Public exploit code.
+      curl, libcurl4 7.74.0-1.3+deb11u1 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-5545
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-116
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2026-56409    Public exploit code.
+      libexpat1 2.2.10-2+deb11u3 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-56409
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2026-5704     Listed in CISA KEV.
+      tar 1.34+dfsg-1 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-5704
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2026-63076    Listed in CISA KEV.
+      libssl1.1, openssl 1.1.1n-0+deb11u2 (no fix listed)
+  CVE-2026-6429     aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      curl, libcurl4 7.74.0-1.3+deb11u1 (no fix listed)
+  CVE-2026-66046    Public exploit code.
+      libexpat1 2.2.10-2+deb11u3 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-66046
+  CVE-2026-7017     Public exploit code.
+      perl-base 5.32.1-4+deb11u2 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-7017
+  CVE-2026-7383     aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      libssl1.1, openssl 1.1.1n-0+deb11u2 -> 1.1.1w-0+deb11u8
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-119
+  CVE-2026-74860    Listed in CISA KEV.
+      libxml2 2.9.10+dfsg-6.7+deb11u2 (no fix listed)
+      detect: SIEM queries (Sigma, Sentinel KQL) https://cyberdetails.org/exploit/cde-71
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2026-75806    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      libssl1.1, openssl 1.1.1n-0+deb11u2 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-75806
+  CVE-2026-82208    Public exploit code.
+      curl, libcurl4 7.74.0-1.3+deb11u1 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-82208
+  CVE-2026-82560    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      perl-base 5.32.1-4+deb11u2 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-82560
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+        - y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y…
+  CVE-2026-8458     Public exploit code.
+      curl, libcurl4 7.74.0-1.3+deb11u1 (no fix listed)
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-200
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2026-85091    Listed in CISA KEV.
+      zlib1g 1:1.2.11.dfsg-2+deb11u1 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-85091
+      detect: SIEM queries (Sigma, Sentinel KQL) https://cyberdetails.org/exploit/cde-221
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2026-86141    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      libxml2 2.9.10+dfsg-6.7+deb11u2 (no fix listed)
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-163
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+        - y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y…
+  CVE-2026-86142    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      libxml2 2.9.10+dfsg-6.7+deb11u2 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-86142
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-231
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2026-86145    Public exploit code.
+      libpcre2-8-0 10.36-2 (no fix listed)
+  CVE-2026-86410    Public exploit code.
+      curl, libcurl4 7.74.0-1.3+deb11u1 (no fix listed)
+  CVE-2026-87864    Listed in CISA KEV.
+      curl, libcurl4 7.74.0-1.3+deb11u1 (no fix listed)
+  CVE-2026-89156    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      libpcre2-8-0 10.36-2 (no fix listed)
+  CVE-2026-89157    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      libpcre2-8-0 10.36-2 (no fix listed)
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+        - y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y…
+  CVE-2026-89160    Public exploit code.
+      libpcre2-8-0 10.36-2 (no fix listed)
+  CVE-2026-8932     aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      curl, libcurl4 7.74.0-1.3+deb11u1 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-8932
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-66
+  CVE-2026-92390    Listed in CISA KEV.
+      curl, libcurl4 7.74.0-1.3+deb11u1 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-92390
+      detect: SIEM queries (Sigma) https://cyberdetails.org/exploit/cde-3
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+        - y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y…
+  CVE-2026-94283    aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa…
+      libx11-6, libx11-data 2:1.7.2-1 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-94283
+      no fixed version yet; if you cannot patch (AI-written, verify):
+        - Disable the ]8;;http://xJNDI]8;; lookup. Restart.
+  CVE-2026-94284    Public exploit code.
+      libx11-6, libx11-data 2:1.7.2-1 (no fix listed)
+  CVE-2026-95184    Public exploit code.
+      libgnutls30 3.7.1-5 (no fix listed)
+  CVE-2026-95818    Public exploit code.
+      libc-bin, libc6 2.31-13+deb11u3 (no fix listed)
+      https://cyberdetails.org/cve/CVE-2026-95818
+
+FIX PLAN — 27 upgrade(s) clear 110 of 255 blocked CVE(s)
+  libssl1.1, openssl                             1.1.1n-0+deb11u2 -> 1.1.1w-0+deb11u8   16 blocked, +20 other
+  libtiff5                                       4.2.0-1+deb11u1 -> 4.2.0-1+deb11u7 (all listed fixes: 4.2.0-1+deb11u8)   14 blocked, +38 other
+  libgnutls30                                    3.7.1-5 -> 3.7.1-5+deb11u10   12 blocked, +13 other
+  curl, libcurl4                                 7.74.0-1.3+deb11u1 -> 7.74.0-1.3+deb11u12 (all listed fixes: 7.74.0-1.3+deb11u…   9 blocked, +25 other
+  libxml2                                        2.9.10+dfsg-6.7+deb11u2 -> 2.9.10+dfsg-6.7+deb11u10   9 blocked, +17 other
+  libc-bin, libc6                                2.31-13+deb11u3 -> 2.31-13+deb11u14   8 blocked, +6 other
+  libpng16-16                                    1.6.37-3 -> 1.6.37-3+deb11u4   7 blocked, +4 other
+  libsystemd0, libudev1                          247.3-7 -> 247.3-7+deb11u8   5 blocked, +5 other
+  libexpat1                                      2.2.10-2+deb11u3 -> 2.2.10-2+deb11u7   4 blocked, +3 other
+  libgssapi-krb5-2, libk5crypto3, libkrb5-3 +1   1.18.3-6+deb11u1 -> 1.18.3-6+deb11u8   3 blocked, +5 other
+  libgd3                                         2.3.0-2 -> 2.3.0-2+deb11u2   3 blocked, +1 other
+  libxslt1.1                                     1.1.34-4 -> 1.1.34-4+deb11u3   2 blocked, +3 other
+  libnghttp2-14                                  1.43.0-1 -> 1.43.0-1+deb11u3   2 blocked, +1 other
+  gpgv                                           2.2.27-2+deb11u1 -> 2.2.27-2+deb11u3   2 blocked
+  libpcre2-8-0                                   10.36-2 -> 10.36-2+deb11u1   2 blocked
+  libxpm4                                        1:3.5.12-1 -> 1:3.5.12-1.1~deb11u1 (all listed fixes: 1:3.5.12-1.1+deb…   1 blocked, +4 other
+  libfreetype6                                   2.10.4+dfsg-1 -> 2.10.4+dfsg-1+deb11u2   1 blocked, +3 other
+  libsepol1                                      3.1-1 -> 3.1-1+deb11u1   1 blocked, +3 other
+  perl-base                                      5.32.1-4+deb11u2 -> 5.32.1-4+deb11u5   1 blocked, +3 other
+  libpam-modules, libpam-modules-bin, libpam-ru… 1.4.0-9+deb11u1 -> 1.4.0-9+deb11u2   1 blocked, +1 other
+  libtasn1-6                                     4.16.0-2 -> 4.16.0-2+deb11u1 (all listed fixes: 4.16.0-2+deb11u2)   1 blocked, +1 other
+  libwebp6                                       0.6.1-2.1 -> 0.6.1-2.1+deb11u2   1 blocked, +1 other
+  tar                                            1.34+dfsg-1 -> 1.34+dfsg-1+deb11u1   1 blocked, +1 other
+  e2fsprogs, libcom-err2, libext2fs2 +2          1.46.2-2 -> 1.46.2-2+deb11u1   1 blocked
+  libssh2-1                                      1.9.0-2 -> 1.9.0-2+deb11u1   1 blocked
+  libtirpc-common, libtirpc3                     1.3.1-1 -> 1.3.1-1+deb11u1   1 blocked
+  zlib1g                                         1:1.2.11.dfsg-2+deb11u1 -> 1:1.2.11.dfsg-2+deb11u2   1 blocked
+  run: apt-get update && apt-get install -y --only-upgrade libssl1.1 openssl libtiff5 libgnutls30 curl libcurl4 libxml2 libc-bin libc6 libpng16-16 libsystemd0 libudev1 libexpat1 libgssapi-krb5-2 libk5crypto3 libkrb5-3 libkrb5support0 libgd3 libxslt1.1 libnghttp2-14 gpgv libpcre2-8-0 libxpm4 libfreetype6 libsepol1 perl-base libpam-modules libpam-modules-bin libpam-runtime libpam0g libtasn1-6 libwebp6 tar e2fsprogs libcom-err2 libext2fs2 libss2 logsave libssh2-1 libtirpc-common libtirpc3 zlib1g
+  145 blocked CVE(s) have a package with no fixed version yet: CVE-2005-2541, CVE-2007-5686, CVE-2010-4756, CVE-2011-3389, CVE-2013-4392 …
+  + 11 more upgrade(s) fix 21 other finding(s); full plan in --json-out.
+
+NOTE — 223 finding(s) have no CyberDetails record. They are NOT judged safe; use --block-unknown to fail on them.
+NOTE — 22 finding(s) have no CVE identifier (e.g. GHSA-only) and were not sent.
+Version matching comes from the scanner; CyberDetails ranks by exploitation evidence.
+RESULT: FAIL (418 blocked)
