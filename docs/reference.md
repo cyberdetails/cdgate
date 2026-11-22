@@ -11,7 +11,7 @@ exploitation.
 
 > **Status: preview.** The hosted API at `https://cyberdetails.org` has
 > answered these requests since 2026-11-19. `cdgate` has no binary release
-> yet; build it from source (below).
+> yet; install it with Go (below).
 
 There are two tools and one API:
 
@@ -72,11 +72,16 @@ pasted CVE list or a few packages.
 scanner and `cdgate scan` each decide which versions are affected; the gate
 ranks whatever CVEs a scanner reported by exploitation evidence.
 
-`cdgate` has no binary release yet. Build it from this repository (Go 1.22+):
+`cdgate` has no binary release yet. Install it with Go 1.22 or newer:
 
 ```sh
-go build -trimpath -o cdgate ./cmd/cdgate
+go install github.com/ferhatcil/cdgate/cmd/cdgate@latest
 ```
+
+The source is at [github.com/ferhatcil/cdgate](https://github.com/ferhatcil/cdgate)
+(Apache-2.0). `cd_sca_gate.py` is not published as a separate download yet;
+`cdgate gate` applies the same policy to the same reports, so use that where
+the examples below call the Python file.
 
 ## Working with Trivy and Grype
 
