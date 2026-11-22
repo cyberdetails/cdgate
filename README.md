@@ -14,6 +14,14 @@ upgrade that clears them.
 
 *Real output: `cdgate scan .` on a test service with ten old Python packages.*
 
+## Watch
+
+<a href="https://www.youtube.com/watch?v=p4mLJFHlF50"><img src="docs/img/video-en.png" alt="Video: Secure Your CI/CD Pipeline with CyberDetails Gate" width="640"></a>
+
+[Secure Your CI/CD Pipeline with CyberDetails Gate](https://www.youtube.com/watch?v=p4mLJFHlF50)
+(1:45): install, add it to your pipeline, read the results.
+[Türkçe video](https://www.youtube.com/watch?v=EGh15u_YHGI).
+
 > **Status: preview.** There is no prebuilt binary yet; install with Go.
 
 ## Install

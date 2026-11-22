@@ -14,6 +14,14 @@ durdurur ve hangi sürüme yükseltmeniz gerektiğini gösterir.
 
 *Gerçek çıktı: on eski Python paketi olan bir test servisinde `cdgate scan .`*
 
+## Video
+
+<a href="https://www.youtube.com/watch?v=EGh15u_YHGI"><img src="docs/img/video-tr.png" alt="Video: CyberDetails Gate ile CI/CD Pipeline'ını Güvene Al" width="640"></a>
+
+[CyberDetails Gate ile CI/CD Pipeline'ını Güvene Al](https://www.youtube.com/watch?v=EGh15u_YHGI)
+(1:48): kurulum, pipeline'a ekleme, sonuçları görme.
+[English video](https://www.youtube.com/watch?v=p4mLJFHlF50).
+
 > **Durum: önizleme.** Hazır derlenmiş dosya henüz yok; Go ile kurulur.
 
 ## Kurulum
