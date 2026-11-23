@@ -5,9 +5,10 @@ few are being exploited in the wild, fails the build on those, shows the
 upgrade that clears them and, where you cannot patch yet, how to detect
 exploitation.
 
-> This repository holds `cdgate`, the Go scanner. It is exported from the
-> CyberDetails source tree; `cd_sca_gate.py` (the Python gate described below)
-> and the API live there. Changes are made in the source tree and exported.
+> This repository holds `cdgate`, the Go scanner, and `cd_sca_gate.py`, the
+> single-file Python gate described below. Both are exported from the
+> CyberDetails source tree, where the API also lives. Changes are made in the
+> source tree and exported.
 
 > **Status: preview.** The hosted API at `https://cyberdetails.org` has
 > answered these requests since 2026-11-19. `cdgate` has no binary release
@@ -79,9 +80,17 @@ go install github.com/ferhatcil/cdgate/cmd/cdgate@latest
 ```
 
 The source is at [github.com/ferhatcil/cdgate](https://github.com/ferhatcil/cdgate)
-(Apache-2.0). `cd_sca_gate.py` is not published as a separate download yet;
-`cdgate gate` applies the same policy to the same reports, so use that where
-the examples below call the Python file.
+(Apache-2.0).
+
+`cd_sca_gate.py` is one file in the same repository and needs only Python 3.8
+or newer. Download it next to your scanner's report:
+
+```sh
+curl -fsSLO https://raw.githubusercontent.com/ferhatcil/cdgate/main/cd_sca_gate.py
+```
+
+In CI, replace `main` in that URL with a commit hash so a later change cannot
+alter your build. `cdgate gate` applies the same policy to the same reports.
 
 ## Working with Trivy and Grype
 

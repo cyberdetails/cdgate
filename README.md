@@ -75,6 +75,16 @@ cdgate gate trivy.json
 
 Only the CVE identifiers leave your machine in this mode.
 
+No Go on the runner? The same gate is one Python file with no dependencies
+(Python 3.8+):
+
+```sh
+curl -fsSLO https://raw.githubusercontent.com/ferhatcil/cdgate/main/cd_sca_gate.py
+python3 cd_sca_gate.py trivy.json
+```
+
+In CI, pin the URL to a commit hash instead of `main`.
+
 ## Use it in CI/CD
 
 The exit code is the whole integration:

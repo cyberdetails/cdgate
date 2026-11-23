@@ -26,3 +26,5 @@ jobs:
         run: go test ./...
       - name: go build
         run: go build -trimpath -o cdgate ./cmd/cdgate && ./cdgate --version
+      - name: python gate starts
+        run: python3 -m py_compile cd_sca_gate.py && python3 cd_sca_gate.py --version

@@ -76,6 +76,16 @@ cdgate gate trivy.json
 
 Bu kullanımda bilgisayarınızdan yalnızca CVE numaraları çıkar.
 
+Çalıştırıcıda Go yok mu? Aynı kapı bağımlılığı olmayan tek bir Python dosyası
+olarak da var (Python 3.8+):
+
+```sh
+curl -fsSLO https://raw.githubusercontent.com/ferhatcil/cdgate/main/cd_sca_gate.py
+python3 cd_sca_gate.py trivy.json
+```
+
+CI'da adresteki `main` yerine bir commit numarası yazın.
+
 ## CI/CD'ye nasıl eklerim?
 
 Bütün entegrasyon çıkış kodudur:
