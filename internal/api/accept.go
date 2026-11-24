@@ -5,7 +5,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/ferhatcil/cdgate/internal/model"
+	"github.com/cyberdetails/cdgate/internal/model"
 )
 
 // Reasons for a package the CyberDetails API would refuse. One refused item

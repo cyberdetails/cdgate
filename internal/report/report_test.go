@@ -5,10 +5,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ferhatcil/cdgate/internal/api"
-	"github.com/ferhatcil/cdgate/internal/model"
-	"github.com/ferhatcil/cdgate/internal/sanitize"
-	"github.com/ferhatcil/cdgate/internal/scan"
+	"github.com/cyberdetails/cdgate/internal/api"
+	"github.com/cyberdetails/cdgate/internal/model"
+	"github.com/cyberdetails/cdgate/internal/sanitize"
+	"github.com/cyberdetails/cdgate/internal/scan"
 )
 
 func s(v string) *string { return &v }

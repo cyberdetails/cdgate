@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ferhatcil/cdgate/internal/model"
-	"github.com/ferhatcil/cdgate/internal/rpmdb"
+	"github.com/cyberdetails/cdgate/internal/model"
+	"github.com/cyberdetails/cdgate/internal/rpmdb"
 )
 
 func rpmFixture(t *testing.T, name string) string {

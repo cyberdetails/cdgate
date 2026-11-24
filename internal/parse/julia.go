@@ -28,7 +28,7 @@ import (
 
 	"github.com/BurntSushi/toml"
 
-	"github.com/ferhatcil/cdgate/internal/model"
+	"github.com/cyberdetails/cdgate/internal/model"
 )
 
 type juliaDep struct {

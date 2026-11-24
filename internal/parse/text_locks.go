@@ -8,7 +8,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/ferhatcil/cdgate/internal/model"
+	"github.com/cyberdetails/cdgate/internal/model"
 )
 
 // --- requirements.txt: only exact pins (== / ===) are packages ---

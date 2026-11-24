@@ -35,7 +35,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ferhatcil/cdgate/internal/model"
+	"github.com/cyberdetails/cdgate/internal/model"
 )
 
 // Formats.

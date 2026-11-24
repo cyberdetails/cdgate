@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"compress/zlib"
 	"encoding/binary"
-	"github.com/ferhatcil/cdgate/internal/sbom"
+	"github.com/cyberdetails/cdgate/internal/sbom"
 	"sort"
 	"strings"
 	"testing"

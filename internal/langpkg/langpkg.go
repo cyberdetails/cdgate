@@ -36,9 +36,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/ferhatcil/cdgate/internal/model"
-	"github.com/ferhatcil/cdgate/internal/parse"
-	"github.com/ferhatcil/cdgate/internal/sbom"
+	"github.com/cyberdetails/cdgate/internal/model"
+	"github.com/cyberdetails/cdgate/internal/parse"
+	"github.com/cyberdetails/cdgate/internal/sbom"
 )
 
 // Kind is a bit set: one file can match more than one analyzer.

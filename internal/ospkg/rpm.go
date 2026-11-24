@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ferhatcil/cdgate/internal/model"
-	"github.com/ferhatcil/cdgate/internal/rpmdb"
+	"github.com/cyberdetails/cdgate/internal/model"
+	"github.com/cyberdetails/cdgate/internal/rpmdb"
 )
 
 // RPM-based distributions, as Trivy reads them (00b7394):

@@ -25,7 +25,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/ferhatcil/cdgate/internal/model"
+	"github.com/cyberdetails/cdgate/internal/model"
 )
 
 // MaxFileBytes caps one build information file read from a layer.

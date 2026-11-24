@@ -7,7 +7,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/ferhatcil/cdgate/internal/model"
+	"github.com/cyberdetails/cdgate/internal/model"
 )
 
 // --- npm: package-lock.json / npm-shrinkwrap.json (lockfileVersion 1-3) ---

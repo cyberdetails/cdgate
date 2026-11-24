@@ -26,11 +26,11 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/ferhatcil/cdgate/internal/buildinfo"
-	"github.com/ferhatcil/cdgate/internal/langpkg"
-	"github.com/ferhatcil/cdgate/internal/model"
-	"github.com/ferhatcil/cdgate/internal/ospkg"
-	"github.com/ferhatcil/cdgate/internal/rpmdb"
+	"github.com/cyberdetails/cdgate/internal/buildinfo"
+	"github.com/cyberdetails/cdgate/internal/langpkg"
+	"github.com/cyberdetails/cdgate/internal/model"
+	"github.com/cyberdetails/cdgate/internal/ospkg"
+	"github.com/cyberdetails/cdgate/internal/rpmdb"
 )
 
 const (

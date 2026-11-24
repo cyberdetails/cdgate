@@ -27,9 +27,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ferhatcil/cdgate/internal/model"
-	"github.com/ferhatcil/cdgate/internal/rpmdb"
-	"github.com/ferhatcil/cdgate/internal/sbom"
+	"github.com/cyberdetails/cdgate/internal/model"
+	"github.com/cyberdetails/cdgate/internal/rpmdb"
+	"github.com/cyberdetails/cdgate/internal/sbom"
 )
 
 // SBOMNotRead is why an SBOM's OS packages are listed unchecked.

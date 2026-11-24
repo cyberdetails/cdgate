@@ -7,7 +7,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/ferhatcil/cdgate/internal/api"
+	"github.com/cyberdetails/cdgate/internal/api"
 )
 
 // A link from the server may only point at the site's own pages (the

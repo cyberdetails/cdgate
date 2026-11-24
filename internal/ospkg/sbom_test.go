@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ferhatcil/cdgate/internal/sbom"
+	"github.com/cyberdetails/cdgate/internal/sbom"
 )
 
 func decodeFile(t *testing.T, p string) *sbom.Result {

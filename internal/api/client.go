@@ -19,7 +19,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ferhatcil/cdgate/internal/model"
+	"github.com/cyberdetails/cdgate/internal/model"
 )
 
 const (
@@ -71,7 +71,7 @@ func New(base, key, version string) (*Client, error) {
 		return nil, errors.New("CD_API_KEY is not a valid key (value not shown)")
 	}
 	return &Client{
-		base: b, key: key, agent: "github.com/ferhatcil/cdgate/" + version + " (+https://cyberdetails.org)",
+		base: b, key: key, agent: "github.com/cyberdetails/cdgate/" + version + " (+https://cyberdetails.org)",
 		sleep: time.Sleep,
 		http: &http.Client{
 			Timeout: 120 * time.Second,

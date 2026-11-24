@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ferhatcil/cdgate/internal/model"
+	"github.com/cyberdetails/cdgate/internal/model"
 )
 
 func names(ps []model.Package) []string {

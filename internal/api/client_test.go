@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ferhatcil/cdgate/internal/model"
+	"github.com/cyberdetails/cdgate/internal/model"
 )
 
 func TestValidateBase(t *testing.T) {

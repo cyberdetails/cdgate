@@ -29,13 +29,13 @@ durdurur ve hangi sürüme yükseltmeniz gerektiğini gösterir.
 [Go](https://go.dev/dl/) 1.22 veya daha yenisi gerekir.
 
 ```sh
-go install github.com/ferhatcil/cdgate/cmd/cdgate@latest
+go install github.com/cyberdetails/cdgate/cmd/cdgate@latest
 ```
 
 Ya da kaynaktan derleyin:
 
 ```sh
-git clone https://github.com/ferhatcil/cdgate
+git clone https://github.com/cyberdetails/cdgate
 cd cdgate
 go build -trimpath -o cdgate ./cmd/cdgate
 ```
@@ -80,7 +80,7 @@ Bu kullanımda bilgisayarınızdan yalnızca CVE numaraları çıkar.
 olarak da var (Python 3.8+):
 
 ```sh
-curl -fsSLO https://raw.githubusercontent.com/ferhatcil/cdgate/main/cd_sca_gate.py
+curl -fsSLO https://raw.githubusercontent.com/cyberdetails/cdgate/main/cd_sca_gate.py
 python3 cd_sca_gate.py trivy.json
 ```
 
@@ -111,7 +111,7 @@ jobs:
       - uses: actions/setup-go@v5
         with:
           go-version: stable
-      - run: go install github.com/ferhatcil/cdgate/cmd/cdgate@latest
+      - run: go install github.com/cyberdetails/cdgate/cmd/cdgate@latest
       - run: cdgate scan .
 ```
 
@@ -128,7 +128,7 @@ jobs:
 dependency-gate:
   image: golang:1.22
   script:
-    - go install github.com/ferhatcil/cdgate/cmd/cdgate@latest
+    - go install github.com/cyberdetails/cdgate/cmd/cdgate@latest
     - cdgate scan .
 ```
 
@@ -136,7 +136,7 @@ dependency-gate:
 aynı iki komutu çalıştırın:
 
 ```sh
-go install github.com/ferhatcil/cdgate/cmd/cdgate@latest
+go install github.com/cyberdetails/cdgate/cmd/cdgate@latest
 cdgate scan .
 ```
 

@@ -2,7 +2,7 @@ package main
 
 import (
 	"bytes"
-	"github.com/ferhatcil/cdgate/internal/ospkg"
+	"github.com/cyberdetails/cdgate/internal/ospkg"
 	"os"
 	"path/filepath"
 	"strings"

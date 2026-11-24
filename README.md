@@ -29,13 +29,13 @@ upgrade that clears them.
 You need [Go](https://go.dev/dl/) 1.22 or newer.
 
 ```sh
-go install github.com/ferhatcil/cdgate/cmd/cdgate@latest
+go install github.com/cyberdetails/cdgate/cmd/cdgate@latest
 ```
 
 Or build from source:
 
 ```sh
-git clone https://github.com/ferhatcil/cdgate
+git clone https://github.com/cyberdetails/cdgate
 cd cdgate
 go build -trimpath -o cdgate ./cmd/cdgate
 ```
@@ -79,7 +79,7 @@ No Go on the runner? The same gate is one Python file with no dependencies
 (Python 3.8+):
 
 ```sh
-curl -fsSLO https://raw.githubusercontent.com/ferhatcil/cdgate/main/cd_sca_gate.py
+curl -fsSLO https://raw.githubusercontent.com/cyberdetails/cdgate/main/cd_sca_gate.py
 python3 cd_sca_gate.py trivy.json
 ```
 
@@ -110,7 +110,7 @@ jobs:
       - uses: actions/setup-go@v5
         with:
           go-version: stable
-      - run: go install github.com/ferhatcil/cdgate/cmd/cdgate@latest
+      - run: go install github.com/cyberdetails/cdgate/cmd/cdgate@latest
       - run: cdgate scan .
 ```
 
@@ -127,7 +127,7 @@ jobs:
 dependency-gate:
   image: golang:1.22
   script:
-    - go install github.com/ferhatcil/cdgate/cmd/cdgate@latest
+    - go install github.com/cyberdetails/cdgate/cmd/cdgate@latest
     - cdgate scan .
 ```
 
@@ -135,7 +135,7 @@ dependency-gate:
 commands in a job that has Go:
 
 ```sh
-go install github.com/ferhatcil/cdgate/cmd/cdgate@latest
+go install github.com/cyberdetails/cdgate/cmd/cdgate@latest
 cdgate scan .
 ```
 

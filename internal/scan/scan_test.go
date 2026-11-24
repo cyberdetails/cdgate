@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ferhatcil/cdgate/internal/parse"
+	"github.com/cyberdetails/cdgate/internal/parse"
 )
 
 func write(t *testing.T, p, body string) {

@@ -32,8 +32,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ferhatcil/cdgate/internal/model"
-	"github.com/ferhatcil/cdgate/internal/rpmdb"
+	"github.com/cyberdetails/cdgate/internal/model"
+	"github.com/cyberdetails/cdgate/internal/rpmdb"
 )
 
 // Files is the read-only view of a root filesystem the analyzer needs.

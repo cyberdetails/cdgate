@@ -13,8 +13,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/ferhatcil/cdgate/internal/model"
-	"github.com/ferhatcil/cdgate/internal/rpmdb"
+	"github.com/cyberdetails/cdgate/internal/model"
+	"github.com/cyberdetails/cdgate/internal/rpmdb"
 )
 
 // RapidFortMarker is the file whose presence marks a curated image.

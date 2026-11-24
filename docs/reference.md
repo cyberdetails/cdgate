@@ -76,17 +76,17 @@ ranks whatever CVEs a scanner reported by exploitation evidence.
 `cdgate` has no binary release yet. Install it with Go 1.22 or newer:
 
 ```sh
-go install github.com/ferhatcil/cdgate/cmd/cdgate@latest
+go install github.com/cyberdetails/cdgate/cmd/cdgate@latest
 ```
 
-The source is at [github.com/ferhatcil/cdgate](https://github.com/ferhatcil/cdgate)
+The source is at [github.com/cyberdetails/cdgate](https://github.com/cyberdetails/cdgate)
 (Apache-2.0).
 
 `cd_sca_gate.py` is one file in the same repository and needs only Python 3.8
 or newer. Download it next to your scanner's report:
 
 ```sh
-curl -fsSLO https://raw.githubusercontent.com/ferhatcil/cdgate/main/cd_sca_gate.py
+curl -fsSLO https://raw.githubusercontent.com/cyberdetails/cdgate/main/cd_sca_gate.py
 ```
 
 In CI, replace `main` in that URL with a commit hash so a later change cannot

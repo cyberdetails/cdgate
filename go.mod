@@ -1,4 +1,4 @@
-module github.com/ferhatcil/cdgate
+module github.com/cyberdetails/cdgate
 
 go 1.22
 
